@@ -1,0 +1,8 @@
+CRITICAL - 2023-05-06 21:52:54 --> Myth\Auth\Models\UserModel::logResetAttempt(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\skripsi\vendor\myth\auth\src\Controllers\AuthController.php on line 294
+in VENDORPATH\myth\auth\src\Models\UserModel.php on line 44.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(294): Myth\Auth\Models\UserModel->logResetAttempt(null, 'a5e2c22c9fe24487ec58412dcbe7b01d', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->attemptReset()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

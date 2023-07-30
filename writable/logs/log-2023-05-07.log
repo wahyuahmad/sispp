@@ -1,0 +1,120 @@
+CRITICAL - 2023-05-07 00:59:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-07 21:19:54 --> Unknown column '584ae3a6ab89d67b476b2e732e7f73d6' in 'where clause'
+CRITICAL - 2023-05-07 21:19:54 --> Unknown column '584ae3a6ab89d67b476b2e732e7f73d6' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `584ae3a6ab89d67b476b2e732e7f73d6` = \'12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `584ae3a6ab89d67b476b2e732e7f73d6` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `584ae3a6ab89d67b476b2e732e7f73d6` = \'12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `584ae3a6ab89d67b476b2e732e7f73d6` = :584ae3a6ab89d67b476b2e732e7f73d6:', [...], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\tunggakan.php(109): App\Models\Tunggakan_Model->getsiswa('12')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 21:47:23 --> Undefined property: App\Controllers\tunggakan::$encrypt
+in APPPATH\Controllers\tunggakan.php on line 109.
+ 1 APPPATH\Controllers\tunggakan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tunggakan::$encrypt', 'APPPATH\\Controllers\\tunggakan.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 21:57:56 --> CodeIgniter\HTTP\URI::getSegment(): Argument #1 ($number) must be of type int, string given, called in C:\xampp\htdocs\skripsi\app\Controllers\tunggakan.php on line 118
+in SYSTEMPATH\HTTP\URI.php on line 522.
+ 1 APPPATH\Controllers\tunggakan.php(118): CodeIgniter\HTTP\URI->getSegment('a87ff679a2f3e71d9181a67b7542122c')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 21:58:23 --> Undefined property: CodeIgniter\HTTP\URI::$getSegment
+in APPPATH\Controllers\tunggakan.php on line 118.
+ 1 APPPATH\Controllers\tunggakan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getSegment', 'APPPATH\\Controllers\\tunggakan.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 21:58:49 --> Undefined property: CodeIgniter\HTTP\URI::$getSegment
+in APPPATH\Controllers\tunggakan.php on line 118.
+ 1 APPPATH\Controllers\tunggakan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getSegment', 'APPPATH\\Controllers\\tunggakan.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 21:58:53 --> Undefined property: CodeIgniter\HTTP\URI::$getSegment
+in APPPATH\Controllers\tunggakan.php on line 118.
+ 1 APPPATH\Controllers\tunggakan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getSegment', 'APPPATH\\Controllers\\tunggakan.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 22:02:13 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$post
+in APPPATH\Controllers\tunggakan.php on line 118.
+ 1 APPPATH\Controllers\tunggakan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$post', 'APPPATH\\Controllers\\tunggakan.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 22:06:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\tunggakan.php(121): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 22:20:56 --> 12 is not a valid HTTP return status code
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 153.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(153): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(12)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(530): CodeIgniter\HTTP\Response->setStatusCode(12)
+ 3 SYSTEMPATH\HTTP\RedirectResponse.php(40): CodeIgniter\HTTP\Response->redirect('http://localhost:8080/tunggakan/cari', 'auto', 12)
+ 4 APPPATH\Controllers\tunggakan.php(125): CodeIgniter\HTTP\RedirectResponse->to('http://localhost:8080/tunggakan/cari', 12)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('174', '12')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-07 22:39:21 --> Undefined property: App\Controllers\tunggakan::$uri
+in APPPATH\Controllers\tunggakan.php on line 120.
+ 1 APPPATH\Controllers\tunggakan.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tunggakan::$uri', 'APPPATH\\Controllers\\tunggakan.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('169', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

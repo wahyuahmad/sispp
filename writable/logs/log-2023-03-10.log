@@ -1,0 +1,369 @@
+CRITICAL - 2023-03-10 01:11:00 --> Undefined variable $validation
+in APPPATH\Views\form\input_tunggakan.php on line 37.
+ 1 APPPATH\Views\form\input_tunggakan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\form\\input_tunggakan.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(24): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 01:30:33 --> Undefined variable $total
+in APPPATH\Views\content\tunggakan.php on line 56.
+ 1 APPPATH\Views\content\tunggakan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'APPPATH\\Views\\content\\tunggakan.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(20): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 01:42:26 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2023-03-10 01:42:26 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`', [], false)
+ 5 APPPATH\Models\Home_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(21): App\Models\Home_Model->tot_pendapatan()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 01:44:33 --> Undefined variable $spp
+in APPPATH\Views\content\tunggakan.php on line 60.
+ 1 APPPATH\Views\content\tunggakan.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\tunggakan.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(20): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 06:18:08 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2023-03-10 06:18:08 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tunggakan`', [], false)
+ 5 APPPATH\Models\Home_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(21): App\Models\Home_Model->tot_pendapatan()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 06:20:18 --> Call to undefined method App\Models\Home_Model::tot_pendapatan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('tot_pendapatan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 06:50:52 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 06:51:47 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:46:39 --> Undefined variable $spp
+in APPPATH\Views\form\input_tunggakan.php on line 61.
+ 1 APPPATH\Views\form\input_tunggakan.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\form\\input_tunggakan.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:49:19 --> Undefined variable $tunggakan
+in APPPATH\Views\form\input_tunggakan.php on line 45.
+ 1 APPPATH\Views\form\input_tunggakan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tunggakan', 'APPPATH\\Views\\form\\input_tunggakan.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:51:51 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:52:08 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:52:43 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:52:47 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:53:22 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:53:30 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:56:17 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:56:32 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 07:57:22 --> Too few arguments to function App\Controllers\tunggakan::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 08:23:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE CASCADE)
+CRITICAL - 2023-03-10 08:23:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN :id_kelas:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\kelas.php(62): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->hapus('2')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 08:24:50 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE CASCADE)
+CRITICAL - 2023-03-10 08:24:50 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN :id_kelas:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\kelas.php(62): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->hapus('2')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 08:26:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2023-03-10 08:26:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN :id_kelas:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\kelas.php(62): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->hapus('2')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 08:29:36 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+CRITICAL - 2023-03-10 08:29:36 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN :id_kelas:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\kelas.php(62): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->hapus('2')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-10 08:36:55 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2023-03-10 08:36:55 --> Cannot delete or update a parent row: a foreign key constraint fails (`sispp`.`siswa`, CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kelas`
+WHERE `id_kelas` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kelas`
+WHERE `id_kelas` IN :id_kelas:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\kelas.php(62): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->hapus('3')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 08:50:24 --> Undefined property: stdClass::$nominal
+in APPPATH\Models\Home_Model.php on line 26.
+ 1 APPPATH\Models\Home_Model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nominal', 'APPPATH\\Models\\Home_Model.php', 26)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\Home_Model->tot_pendapatan()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 09:37:58 --> Undefined variable $nama_jurusan
+in APPPATH\Views\content\home.php on line 117.
+ 1 APPPATH\Views\content\home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_jurusan', 'APPPATH\\Views\\content\\home.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 09:41:17 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\content\home.php on line 105.
+ 1 APPPATH\Views\content\home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\content\\home.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 09:42:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\content\home.php on line 105.
+ 1 APPPATH\Views\content\home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\content\\home.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 09:42:36 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\content\home.php on line 105.
+ 1 APPPATH\Views\content\home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\content\\home.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 09:42:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\content\home.php on line 105.
+ 1 APPPATH\Views\content\home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\content\\home.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 09:59:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\content\home.php on line 109.
+ 1 APPPATH\Views\content\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\content\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 10:00:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\content\home.php on line 109.
+ 1 APPPATH\Views\content\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\content\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

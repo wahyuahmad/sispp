@@ -1,0 +1,1582 @@
+CRITICAL - 2023-05-04 01:44:34 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('file://C:\\xampp\\htdocs\\skripsi\\public\\img\\logosmk.png', 34.01574803149606, 100.46425196850396, 585.0, 576.0)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('file://C:\\xampp\\htdocs\\skripsi\\public\\img\\logosmk.png', 34.01574803149606, -81.18425196850393, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\tunggakan.php(84): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 01:45:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 02:01:40 --> Undefined property: App\Controllers\tunggakan::$db
+in APPPATH\Controllers\tunggakan.php on line 74.
+ 1 APPPATH\Controllers\tunggakan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tunggakan::$db', 'APPPATH\\Controllers\\tunggakan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:02:15 --> Undefined property: App\Controllers\tunggakan::$db
+in APPPATH\Controllers\tunggakan.php on line 74.
+ 1 APPPATH\Controllers\tunggakan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tunggakan::$db', 'APPPATH\\Controllers\\tunggakan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:10:35 --> Too few arguments to function TCPDF::writeHTMLCell(), 1 passed in C:\xampp\htdocs\skripsi\app\Controllers\tunggakan.php on line 64 and at least 4 expected
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17254.
+ 1 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTMLCell('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,04 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:10:52 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,04 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,04 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:16:18 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,04 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body>
+ 
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,04 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:16:41 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; <table ><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,04 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body>
+ 
+    <table >
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,04 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:19:00 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; <table ><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,04 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(71): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body>
+ 
+    <table >
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,04 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:27:58 --> Undefined property: CodeIgniter\View\View::$response
+in APPPATH\Views\content\export_laporan.php on line 10.
+ 1 APPPATH\Views\content\export_laporan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$response', 'APPPATH\\Views\\content\\export_laporan.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\export_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/export_laporan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(59): view('/content/export_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:28:18 --> Undefined property: TCPDF::$response
+in APPPATH\Views\content\export_laporan.php on line 10.
+ 1 APPPATH\Views\content\export_laporan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'APPPATH\\Views\\content\\export_laporan.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\export_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/export_laporan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(59): view('/content/export_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:28:52 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,04 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(71): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,04 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:57:46 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('VENDORPATH\\dompdf\\dompdf\\lib\\res\\logosmk.png', 34.01574803149606, -14.735748031496087, 585.0, 576.0)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('VENDORPATH\\dompdf\\dompdf\\lib\\res\\logosmk.png', 34.01574803149606, 34.01574803149606, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 02:58:14 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 03:06:03 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('VENDORPATH\\dompdf\\dompdf\\lib\\res\\logosmk.png', 34.01574803149606, -14.735748031496087, 585.0, 576.0)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('VENDORPATH\\dompdf\\dompdf\\lib\\res\\logosmk.png', 34.01574803149606, 34.01574803149606, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 03:06:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 03:15:44 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php(224): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Hp\\AppData\\Local\\Temp\\svg354F.tmp', 0.0, 192.0, 585.0, 576.0)
+ 2 VENDORPATH\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php(179): Svg\Surface\SurfaceCpdf->image('C:\\Users\\Hp\\AppData\\Local\\Temp\\svg354F.tmp', 0.0, 768.0, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\phenx\php-svg-lib\src\Svg\Tag\Image.php(61): Svg\Surface\SurfaceCpdf->drawImage('C:\\Users\\Hp\\AppData\\Local\\Temp\\svg354F.tmp', 0.0, 768.0, 585.0, 576.0)
+ 4 VENDORPATH\phenx\php-svg-lib\src\Svg\Tag\AbstractTag.php(64): Svg\Tag\Image->start([...])
+ 5 VENDORPATH\phenx\php-svg-lib\src\Svg\Document.php(357): Svg\Tag\AbstractTag->handle([...])
+ 6 [internal function]: Svg\Document->_tagStart(Object(XMLParser), 'image', [...])
+ 7 VENDORPATH\phenx\php-svg-lib\src\Svg\Document.php(225): xml_parse(Object(XMLParser), 'Pzvn3f38lU6+cRURERPw+U3dmRERExB8KFJRtrtpKuLGORKqpQyPk0jBs912PZLYn4167l8y1pSlOhR8LkGHIJluNYWh1UyETKWKPIQ5aquLdJ2VIjt/Vx35z0PPT6ac4mDHdoclwsOhcB8sucbBmuYMNaxzcvMHB7Z9zcNdmB/d+xcE373HwrQcdPPm4gx8+5eCnzzp48QUHr7zkYAenb77o4K1XHbz32jh0/nI8+nY3oqBepN5NmWlhT5KfEyi+l0LpfRelvV6Z/F7f0Peea+h/X599dO9JofOdBN7bcRL2vD4eu7Yfi19yH69zX9ued/DSjx288AMHT33PwXefcPDtf3bw0BYH99/t4Ct3OPjiJgebb3Kw/moH16xysGqpg6UXObhknoNzZzqYfaqD6TwPUyaH7QN4Xpp1jjjVecrxvKlnoSzPY1ZTntNc4kSisQl8ZJvSyDSqMTzNWyoLTw2NZRq8bGDyXM+YBpdmUMgsiJTfCNdv6nCzTR0LLjn34fnzFj6yaMHiLRuu/cxn/+/9D1609acvTHlzx5sN9cpKRERExB8qdWdGRERERFSI+/H2GEVmwElvGLzxu5rc8buSXrYt4WbaY0m/I55Kt6fcdJvnZ6GxJ9RLjud5Bt9LwXOTZqReNxXj53jw5ptC15XQpegVnhrMapAul1D8+smgTUbGzRr0WfMs6k2qmoQfQ5zCOOY2GpI+xTJJpRMBmZghmW7ishLPCYNqWYLPTKfv8nsSSZfb09gARA14XU8x/dx/unJ8puaF0FQFNTEh+m7muc3meyqZNbj6zQ3QZxq0EIp71+W50j543sw55HIS/4YW/taMBNcL2hEoPGgSGlINaNLxegk0ufGOxlRsR5Prdpx34YUPzb9o0ZaLl3zi/ms3XP/Zr9+3ZfFT//LsH7/6H+3pt9557/jaPI6IiIiIODx1Z0ZERERE/O+IJ7z2ZMpvS7l+G0V2G0XwdkHD0KYRsX0v0U6z0J5MNO5IxBt2pL3cNt/NbadZaKNRaJN5kIlIJQLcGA0Hvwdv0ENkFsLPcU8GISARmgNrENwMxT4NxFgay8T9BmMULEmXRoImwSLTkPJkHlxjFnhMBtP7T9JFPKFByHLIpAJTIIPgJmgM4hkkYzoOmotwvsxCMsH5IdY4yCx4MlM0VTIMSW43we0mkr4xX5raELJzzlnw8PkLLnlw+eWr7vzbjf/nb267/a5Vjzz2yJ899/xz0zp2dDS9+95/j7P5EBERERHxm6PuzIiIiIiII4/Coipv+gP8jPrzV7uKpCEQ1ykjtJPJODIU3QrJ8VUrYeL4K6aitjYiQL/5/C3A5/4CKNxd7jsVM6hGJO0HYT0K7/H15p9TdRfqJoOpxhoYay5EkH61HUhnPfPd85n2TKrt4ksXPnDxpRc+sOjjl9y7ZOnir33i8k/8/ca/3fg3m7+w+VP33nv/Jd994ruzX9j6Quvr7e3xd95++9h65ygiIiIi4shTd2ZERERExJFn2/ZXMltf+Fc8/aOn8Nh3/hkPP/KP+NrdX8WX7/oSbr11E2666QZs2HAd1q79NK688gqsWHE5Ll+6AksXL8Pii5bgwvMW4ty552HurLmYPeMszJoxG7Omz8JMceZMzDh9BqafNh3TTz2zzBmnT8P0M0/BjOmnl5k540ycNXsW5s49Gxecdz4WLrgQly1ahE8sWYJlS5dj5SdXYs2Va7D20+uw8frP4Eama9Otn8edX74Dd9/7VTz40DdN+r/31BN4/oXn8NLLP8P217dHXYtGREREHJXA+f9gcsN+xQkSGwAAAABJRU5ErkJggg==" preserveAspectRatio="none" width="585" height="576"/>
+</g>
+</svg>', false)
+ 8 VENDORPATH\dompdf\dompdf\lib\Cpdf.php(5910): Svg\Document->render(Object(Svg\Surface\SurfaceCpdf))
+ 9 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(675): Dompdf\Cpdf->addSvgFromFile('VENDORPATH\\dompdf\\dompdf\\lib\\res\\new.svg', 34.01574803149606, 450.49502119927314, 112.5, 110.76923076923077)
+10 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('VENDORPATH\\dompdf\\dompdf\\lib\\res\\new.svg', 34.01574803149606, 34.01574803149606, 112.5, 110.76923076923077, 'normal')
+11 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+12 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+13 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+14 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+15 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+16 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+17 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+18 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+19 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 03:16:13 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260050944 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 03:16:23 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php(224): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Hp\\AppData\\Local\\Temp\\svgCD1C.tmp', 0.0, 192.0, 585.0, 576.0)
+ 2 VENDORPATH\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php(179): Svg\Surface\SurfaceCpdf->image('C:\\Users\\Hp\\AppData\\Local\\Temp\\svgCD1C.tmp', 0.0, 768.0, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\phenx\php-svg-lib\src\Svg\Tag\Image.php(61): Svg\Surface\SurfaceCpdf->drawImage('C:\\Users\\Hp\\AppData\\Local\\Temp\\svgCD1C.tmp', 0.0, 768.0, 585.0, 576.0)
+ 4 VENDORPATH\phenx\php-svg-lib\src\Svg\Tag\AbstractTag.php(64): Svg\Tag\Image->start([...])
+ 5 VENDORPATH\phenx\php-svg-lib\src\Svg\Document.php(357): Svg\Tag\AbstractTag->handle([...])
+ 6 [internal function]: Svg\Document->_tagStart(Object(XMLParser), 'image', [...])
+ 7 VENDORPATH\phenx\php-svg-lib\src\Svg\Document.php(225): xml_parse(Object(XMLParser), 'Pzvn3f38lU6+cRURERPw+U3dmRERExB8KFJRtrtpKuLGORKqpQyPk0jBs912PZLYn4167l8y1pSlOhR8LkGHIJluNYWh1UyETKWKPIQ5aquLdJ2VIjt/Vx35z0PPT6ac4mDHdoclwsOhcB8sucbBmuYMNaxzcvMHB7Z9zcNdmB/d+xcE373HwrQcdPPm4gx8+5eCnzzp48QUHr7zkYAenb77o4K1XHbz32jh0/nI8+nY3oqBepN5NmWlhT5KfEyi+l0LpfRelvV6Z/F7f0Peea+h/X599dO9JofOdBN7bcRL2vD4eu7Yfi19yH69zX9ued/DSjx288AMHT33PwXefcPDtf3bw0BYH99/t4Ct3OPjiJgebb3Kw/moH16xysGqpg6UXObhknoNzZzqYfaqD6TwPUyaH7QN4Xpp1jjjVecrxvKlnoSzPY1ZTntNc4kSisQl8ZJvSyDSqMTzNWyoLTw2NZRq8bGDyXM+YBpdmUMgsiJTfCNdv6nCzTR0LLjn34fnzFj6yaMHiLRuu/cxn/+/9D1609acvTHlzx5sN9cpKRERExB8qdWdGRERERFSI+/H2GEVmwElvGLzxu5rc8buSXrYt4WbaY0m/I55Kt6fcdJvnZ6GxJ9RLjud5Bt9LwXOTZqReNxXj53jw5ptC15XQpegVnhrMapAul1D8+smgTUbGzRr0WfMs6k2qmoQfQ5zCOOY2GpI+xTJJpRMBmZghmW7ishLPCYNqWYLPTKfv8nsSSZfb09gARA14XU8x/dx/unJ8puaF0FQFNTEh+m7muc3meyqZNbj6zQ3QZxq0EIp71+W50j543sw55HIS/4YW/taMBNcL2hEoPGgSGlINaNLxegk0ufGOxlRsR5Prdpx34YUPzb9o0ZaLl3zi/ms3XP/Zr9+3ZfFT//LsH7/6H+3pt9557/jaPI6IiIiIODx1Z0ZERERE/O+IJ7z2ZMpvS7l+G0V2G0XwdkHD0KYRsX0v0U6z0J5MNO5IxBt2pL3cNt/NbadZaKNRaJN5kIlIJQLcGA0Hvwdv0ENkFsLPcU8GISARmgNrENwMxT4NxFgay8T9BmMULEmXRoImwSLTkPJkHlxjFnhMBtP7T9JFPKFByHLIpAJTIIPgJmgM4hkkYzoOmotwvsxCMsH5IdY4yCx4MlM0VTIMSW43we0mkr4xX5raELJzzlnw8PkLLnlw+eWr7vzbjf/nb267/a5Vjzz2yJ899/xz0zp2dDS9+95/j7P5EBERERHxm6PuzIiIiIiII4/Coipv+gP8jPrzV7uKpCEQ1ykjtJPJODIU3QrJ8VUrYeL4K6aitjYiQL/5/C3A5/4CKNxd7jsVM6hGJO0HYT0K7/H15p9TdRfqJoOpxhoYay5EkH61HUhnPfPd85n2TKrt4ksXPnDxpRc+sOjjl9y7ZOnir33i8k/8/ca/3fg3m7+w+VP33nv/Jd994ruzX9j6Quvr7e3xd95++9h65ygiIiIi4shTd2ZERERExJFn2/ZXMltf+Fc8/aOn8Nh3/hkPP/KP+NrdX8WX7/oSbr11E2666QZs2HAd1q79NK688gqsWHE5Ll+6AksXL8Pii5bgwvMW4ty552HurLmYPeMszJoxG7Omz8JMceZMzDh9BqafNh3TTz2zzBmnT8P0M0/BjOmnl5k540ycNXsW5s49Gxecdz4WLrgQly1ahE8sWYJlS5dj5SdXYs2Va7D20+uw8frP4Eama9Otn8edX74Dd9/7VTz40DdN+r/31BN4/oXn8NLLP8P217dHXYtGREREHJXA+f9gcsN+xQkSGwAAAABJRU5ErkJggg==" preserveAspectRatio="none" width="585" height="576"/>
+</g>
+</svg>', false)
+ 8 VENDORPATH\dompdf\dompdf\lib\Cpdf.php(5910): Svg\Document->render(Object(Svg\Surface\SurfaceCpdf))
+ 9 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(675): Dompdf\Cpdf->addSvgFromFile('VENDORPATH\\dompdf\\dompdf\\lib\\res\\new.svg', 34.01574803149606, 450.49502119927314, 112.5, 110.76923076923077)
+10 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('VENDORPATH\\dompdf\\dompdf\\lib\\res\\new.svg', 34.01574803149606, 34.01574803149606, 112.5, 110.76923076923077, 'normal')
+11 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+12 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+13 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+14 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+15 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+16 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+17 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+18 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+19 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 03:16:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260050944 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 03:19:13 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php(224): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Hp\\AppData\\Local\\Temp\\svg65D8.tmp', 0.0, -526.0, 585.0, 576.0)
+ 2 VENDORPATH\phenx\php-svg-lib\src\Svg\Surface\SurfaceCpdf.php(179): Svg\Surface\SurfaceCpdf->image('C:\\Users\\Hp\\AppData\\Local\\Temp\\svg65D8.tmp', 0.0, 50.0, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\phenx\php-svg-lib\src\Svg\Tag\Image.php(61): Svg\Surface\SurfaceCpdf->drawImage('C:\\Users\\Hp\\AppData\\Local\\Temp\\svg65D8.tmp', 0.0, 50.0, 585.0, 576.0)
+ 4 VENDORPATH\phenx\php-svg-lib\src\Svg\Tag\AbstractTag.php(64): Svg\Tag\Image->start([...])
+ 5 VENDORPATH\phenx\php-svg-lib\src\Svg\Document.php(357): Svg\Tag\AbstractTag->handle([...])
+ 6 [internal function]: Svg\Document->_tagStart(Object(XMLParser), 'image', [...])
+ 7 VENDORPATH\phenx\php-svg-lib\src\Svg\Document.php(225): xml_parse(Object(XMLParser), 'vn3f38lU6+cRURERPw+U3dmRERExB8KFJRtrtpKuLGORKqpQyPk0jBs912PZLYn4167l8y1pSlOhR8LkGHIJluNYWh1UyETKWKPIQ5aquLdJ2VIjt/Vx35z0PPT6ac4mDHdoclwsOhcB8sucbBmuYMNaxzcvMHB7Z9zcNdmB/d+xcE373HwrQcdPPm4gx8+5eCnzzp48QUHr7zkYAenb77o4K1XHbz32jh0/nI8+nY3oqBepN5NmWlhT5KfEyi+l0LpfRelvV6Z/F7f0Peea+h/X599dO9JofOdBN7bcRL2vD4eu7Yfi19yH69zX9ued/DSjx288AMHT33PwXefcPDtf3bw0BYH99/t4Ct3OPjiJgebb3Kw/moH16xysGqpg6UXObhknoNzZzqYfaqD6TwPUyaH7QN4Xpp1jjjVecrxvKlnoSzPY1ZTntNc4kSisQl8ZJvSyDSqMTzNWyoLTw2NZRq8bGDyXM+YBpdmUMgsiJTfCNdv6nCzTR0LLjn34fnzFj6yaMHiLRuu/cxn/+/9D1609acvTHlzx5sN9cpKRERExB8qdWdGRERERFSI+/H2GEVmwElvGLzxu5rc8buSXrYt4WbaY0m/I55Kt6fcdJvnZ6GxJ9RLjud5Bt9LwXOTZqReNxXj53jw5ptC15XQpegVnhrMapAul1D8+smgTUbGzRr0WfMs6k2qmoQfQ5zCOOY2GpI+xTJJpRMBmZghmW7ishLPCYNqWYLPTKfv8nsSSZfb09gARA14XU8x/dx/unJ8puaF0FQFNTEh+m7muc3meyqZNbj6zQ3QZxq0EIp71+W50j543sw55HIS/4YW/taMBNcL2hEoPGgSGlINaNLxegk0ufGOxlRsR5Prdpx34YUPzb9o0ZaLl3zi/ms3XP/Zr9+3ZfFT//LsH7/6H+3pt9557/jaPI6IiIiIODx1Z0ZERERE/O+IJ7z2ZMpvS7l+G0V2G0XwdkHD0KYRsX0v0U6z0J5MNO5IxBt2pL3cNt/NbadZaKNRaJN5kIlIJQLcGA0Hvwdv0ENkFsLPcU8GISARmgNrENwMxT4NxFgay8T9BmMULEmXRoImwSLTkPJkHlxjFnhMBtP7T9JFPKFByHLIpAJTIIPgJmgM4hkkYzoOmotwvsxCMsH5IdY4yCx4MlM0VTIMSW43we0mkr4xX5raELJzzlnw8PkLLnlw+eWr7vzbjf/nb267/a5Vjzz2yJ899/xz0zp2dDS9+95/j7P5EBERERHxm6PuzIiIiIiII4/Coipv+gP8jPrzV7uKpCEQ1ykjtJPJODIU3QrJ8VUrYeL4K6aitjYiQL/5/C3A5/4CKNxd7jsVM6hGJO0HYT0K7/H15p9TdRfqJoOpxhoYay5EkH61HUhnPfPd85n2TKrt4ksXPnDxpRc+sOjjl9y7ZOnir33i8k/8/ca/3fg3m7+w+VP33nv/Jd994ruzX9j6Quvr7e3xd95++9h65ygiIiIi4shTd2ZERERExJFn2/ZXMltf+Fc8/aOn8Nh3/hkPP/KP+NrdX8WX7/oSbr11E2666QZs2HAd1q79NK688gqsWHE5Ll+6AksXL8Pii5bgwvMW4ty552HurLmYPeMszJoxG7Omz8JMceZMzDh9BqafNh3TTz2zzBmnT8P0M0/BjOmnl5k540ycNXsW5s49Gxecdz4WLrgQly1ahE8sWYJlS5dj5SdXYs2Va7D20+uw8frP4Eama9Otn8edX74Dd9/7VTz40DdN+r/31BN4/oXn8NLLP8P217dHXYtGREREHJXA+f9gcsN+xQkSGwAAAABJRU5ErkJggg==" preserveAspectRatio="none" width="585" height="576"/>
+</g>
+</svg>', false)
+ 8 VENDORPATH\dompdf\dompdf\lib\Cpdf.php(5910): Svg\Document->render(Object(Svg\Surface\SurfaceCpdf))
+ 9 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(675): Dompdf\Cpdf->addSvgFromFile('VENDORPATH\\dompdf\\dompdf\\lib\\res\\new.svg', 34.01574803149606, 448.7642519685039, 112.5, 112.5)
+10 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('VENDORPATH\\dompdf\\dompdf\\lib\\res\\new.svg', 34.01574803149606, 34.01574803149606, 112.5, 112.5, 'normal')
+11 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+12 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+13 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+14 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+15 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+16 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+17 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+18 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+19 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 03:19:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 257953792 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 06:53:59 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:54:23 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:55:05 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:55:33 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:56:00 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:56:57 --> Undefined array key "d"
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "d"', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:57:28 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Views\form\bayar_spp.php on line 195.
+ 1 APPPATH\Views\form\bayar_spp.php(195): explode('ROOTPATH\\public', '2023-05-02')
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:57:38 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:58:36 --> Too few arguments to function tanggal_indonesia(), 1 passed in C:\xampp\htdocs\skripsi\app\Views\form\bayar_spp.php on line 102 and exactly 2 expected
+in APPPATH\Views\form\bayar_spp.php on line 178.
+ 1 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 06:59:05 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 201.
+ 1 APPPATH\Views\form\bayar_spp.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 201)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:01:58 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 203.
+ 1 APPPATH\Views\form\bayar_spp.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 203)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:02:45 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 203.
+ 1 APPPATH\Views\form\bayar_spp.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 203)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:03:09 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 204.
+ 1 APPPATH\Views\form\bayar_spp.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 204)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:07:25 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 202.
+ 1 APPPATH\Views\form\bayar_spp.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 202)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:08:28 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(102): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:12:29 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 203.
+ 1 APPPATH\Views\form\bayar_spp.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 203)
+ 2 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:13:42 --> Too few arguments to function tanggal_indonesia(), 1 passed in C:\xampp\htdocs\skripsi\app\Views\form\bayar_spp.php on line 103 and exactly 2 expected
+in APPPATH\Views\form\bayar_spp.php on line 179.
+ 1 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:13:54 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 204.
+ 1 APPPATH\Views\form\bayar_spp.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 204)
+ 2 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:14:12 --> Undefined array key 1
+in APPPATH\Views\form\bayar_spp.php on line 204.
+ 1 APPPATH\Views\form\bayar_spp.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\form\\bayar_spp.php', 204)
+ 2 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:14:19 --> Undefined array key 1
+in APPPATH\Views\form\bayar_spp.php on line 204.
+ 1 APPPATH\Views\form\bayar_spp.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\form\\bayar_spp.php', 204)
+ 2 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:14:50 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 204.
+ 1 APPPATH\Views\form\bayar_spp.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 204)
+ 2 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:15:19 --> explode(): Argument #3 ($limit) must be of type int, string given
+in APPPATH\Views\form\bayar_spp.php on line 198.
+ 1 APPPATH\Views\form\bayar_spp.php(198): explode('C:\\', 'C:\\', '2023-05-02')
+ 2 APPPATH\Views\form\bayar_spp.php(103): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:18:59 --> explode(): Argument #3 ($limit) must be of type int, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', 'C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:19:19 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:19:41 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:19:44 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:20:03 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:20:09 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:20:17 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:20:52 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+in APPPATH\Views\form\bayar_spp.php on line 199.
+ 1 APPPATH\Views\form\bayar_spp.php(199): explode('C:\\', Object(DateTime))
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia(Object(DateTime))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:31:29 --> Undefined property: App\Controllers\tunggakan::$uri
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tunggakan::$uri', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('164', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:32:01 --> Call to undefined method CodeIgniter\HTTP\URI::Segment()
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('164', '1111')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:32:50 --> Undefined property: CodeIgniter\HTTP\URI::$getSegment
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getSegment', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('165', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:35:24 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$post
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$post', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('165', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:35:37 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$post
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$post', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('166', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:40:28 --> Undefined property: CodeIgniter\HTTP\URI::$getsegment
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getsegment', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('167', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:40:51 --> Undefined property: CodeIgniter\HTTP\URI::$getsegment
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getsegment', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('167', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:46:51 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getSegments
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getSegments', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('168', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:47:24 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getVar
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getVar', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('168', '1111')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:54:56 --> Undefined property: CodeIgniter\HTTP\URI::$getSegments
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$getSegments', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('133', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:55:13 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('133', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:55:41 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('133', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 07:58:01 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 122.
+ 1 APPPATH\Controllers\tunggakan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('134', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:01:02 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 123.
+ 1 APPPATH\Controllers\tunggakan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('134', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:03:01 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 123.
+ 1 APPPATH\Controllers\tunggakan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('134', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:03:33 --> DateTime::__construct(): Failed to parse time string (31-12-69) at position 7 (9): Unexpected character
+in APPPATH\Views\form\bayar_spp.php on line 98.
+ 1 APPPATH\Views\form\bayar_spp.php(98): DateTime->__construct('31-12-69')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:05:06 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(98): tanggal_indonesia('04-05-23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:06:55 --> Undefined array key 2
+in APPPATH\Controllers\tunggakan.php on line 139.
+ 1 APPPATH\Controllers\tunggakan.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\tunggakan.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('135', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:09:51 --> Undefined array key 2
+in APPPATH\Controllers\tunggakan.php on line 140.
+ 1 APPPATH\Controllers\tunggakan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\tunggakan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('135', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:09:54 --> Undefined array key 2
+in APPPATH\Controllers\tunggakan.php on line 140.
+ 1 APPPATH\Controllers\tunggakan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\tunggakan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('135', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:11:23 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 123.
+ 1 APPPATH\Controllers\tunggakan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('135', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:11:34 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia('0000-00-00')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:11:38 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:11:43 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:11:43 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:11:46 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:12:25 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 206.
+ 1 APPPATH\Views\form\bayar_spp.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 206)
+ 2 APPPATH\Views\form\bayar_spp.php(104): tanggal_indonesia('2023-05-02')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(112): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:19:03 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 123.
+ 1 APPPATH\Controllers\tunggakan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('136', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:20:00 --> Array to string conversion
+in APPPATH\Controllers\tunggakan.php on line 123.
+ 1 APPPATH\Controllers\tunggakan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\tunggakan.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('136', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:29:36 --> A non-numeric value encountered
+in APPPATH\Controllers\tunggakan.php on line 125.
+ 1 APPPATH\Controllers\tunggakan.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\tunggakan.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('140', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:40:04 --> Call to undefined function App\Controllers\mcrypt_encrypt()
+in APPPATH\Controllers\tunggakan.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:52:05 --> Call to undefined function tanggal_indonesia()
+in APPPATH\Views\content\export_kelas.php on line 72.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_kelas', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(87): view('content/export_kelas', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_kelas()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:52:32 --> Call to undefined function tanggal_indonesia()
+in APPPATH\Views\content\export_kelas.php on line 72.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_kelas', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(87): view('content/export_kelas', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_kelas()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:52:53 --> Call to undefined function bulan()
+in APPPATH\Views\content\export_kelas.php on line 101.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_kelas', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(87): view('content/export_kelas', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_kelas()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-04 08:58:16 --> Call to undefined function bulan()
+in APPPATH\Views\content\export_siswa.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_siswa', [], true)
+ 4 APPPATH\Controllers\laporan.php(47): view('content/export_siswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\laporan->siswa_spp('12')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-04 10:13:00 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2023-05-04 10:13:33 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()

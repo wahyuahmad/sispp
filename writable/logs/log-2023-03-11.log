@@ -1,0 +1,1187 @@
+CRITICAL - 2023-03-11 05:55:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(75): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 05:55:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(75): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:22:18 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:22:36 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:22:41 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:23:23 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:23:29 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:24:17 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:24:57 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:25:25 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:27:18 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:28:09 --> Too few arguments to function App\Controllers\siswa::search(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:51:16 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 06:53:24 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:25:43 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:34:13 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:34:20 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:40:50 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\siswa.php on line 97.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa/input_tunggakan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa/input_tunggakan')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('siswa/input_tunggakan')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:43:40 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:44:18 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:44:24 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:45:49 --> Undefined variable $siswa
+in APPPATH\Views\content\siswa.php on line 49.
+ 1 APPPATH\Views\content\siswa.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\content\\siswa.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/content/siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:46:53 --> Undefined variable $siswa
+in APPPATH\Views\content\siswa.php on line 49.
+ 1 APPPATH\Views\content\siswa.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\content\\siswa.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/content/siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:50:14 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 07:59:02 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:13:36 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:17:58 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:24:00 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:24:15 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 31.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:24:59 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 30.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:25:54 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 30.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:26:37 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 29.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:26:59 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 29.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:27:59 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:29:38 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:31:33 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:31:58 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:32:31 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 08:32:51 --> Object of class App\Models\Siswa_Model could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:35:43 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:36:32 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:37:33 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:37:49 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:38:29 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:39:17 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:39:42 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:44:41 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(93): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:46:01 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(93): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:50:03 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(93): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:51:08 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 28.
+ 1 APPPATH\Controllers\siswa.php(93): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:54:41 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Siswa_Model.php on line 31.
+ 1 APPPATH\Controllers\siswa.php(93): App\Models\Siswa_Model->search('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:56:40 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:57:44 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 09:58:16 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(96): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:04:04 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:04:25 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:05:09 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:05:59 --> Too few arguments to function App\Controllers\siswa::input_tunggakan(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\siswa.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:06:11 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:06:56 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:08:40 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:08:59 --> Undefined array key "nm_siswa"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_siswa"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:09:11 --> Undefined array key "id_siswa"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:09:20 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 27
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(27): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:09:37 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 27
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(27): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:10:39 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:11:03 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:11:09 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:11:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:12:00 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:12:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:12:33 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\skripsi\app\Models\Siswa_Model.php on line 28
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Siswa_Model.php(28): CodeIgniter\Database\BaseBuilder->like('nis', null)
+ 2 APPPATH\Controllers\siswa.php(94): App\Models\Siswa_Model->search(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:13:56 --> Undefined array key "id_siswa"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:14:44 --> Undefined array key "id_siswa"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:15:14 --> Undefined variable $spp
+in APPPATH\Views\form\input_tunggakan.php on line 65.
+ 1 APPPATH\Views\form\input_tunggakan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\form\\input_tunggakan.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:16:00 --> Undefined array key "id_siswa"
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:20:18 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 50.
+ 1 APPPATH\Views\form\input_tunggakan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:22:54 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 48.
+ 1 APPPATH\Views\form\input_tunggakan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:24:47 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:25:42 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(95): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:26:28 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(94): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:41:46 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(100): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:44:16 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(100): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:48:41 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(100): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:49:44 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(102): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:50:58 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(102): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:51:34 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(103): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:52:04 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(103): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:04:40 --> Object of class App\Models\Siswa_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `siswa`
+WHERE `nis` = :nis:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `siswa`
+WHERE `nis` = :nis:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `nis` = :nis:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Controllers\siswa.php(99): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:05:09 --> Object of class App\Models\Siswa_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `nis` = :nis:
+AND  `nis` LIKE :nis.1: ESCAPE \'!\'
+AND `id_siswa` = :id_siswa:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `nis` = :nis:
+AND  `nis` LIKE :nis.1: ESCAPE \'!\'
+AND `id_siswa` = :id_siswa:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `nis` = :nis:
+AND  `nis` LIKE :nis.1: ESCAPE \'!\'
+AND `id_siswa` = :id_siswa:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\Siswa_Model.php(32): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\siswa.php(99): App\Models\Siswa_Model->search('1111')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->search()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:05:11 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(93): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:05:19 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\siswa.php(93): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_tunggakan()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:18:02 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(25): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:18:21 --> Undefined variable $spp
+in APPPATH\Views\form\input_tunggakan.php on line 66.
+ 1 APPPATH\Views\form\input_tunggakan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\form\\input_tunggakan.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(25): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:19:44 --> Call to undefined method App\Models\Spp_Model::getdata
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\tunggakan.php(27): CodeIgniter\Model->__call('getdata', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:20:25 --> Undefined array key "kelas"
+in APPPATH\Views\content\tunggakan.php on line 56.
+ 1 APPPATH\Views\content\tunggakan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'APPPATH\\Views\\content\\tunggakan.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(22): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:24:10 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:25:46 --> Undefined variable $sisw
+in APPPATH\Views\form\input_tunggakan.php on line 48.
+ 1 APPPATH\Views\form\input_tunggakan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisw', 'APPPATH\\Views\\form\\input_tunggakan.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:26:00 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:27:05 --> Undefined array key "nominal"
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nominal"', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:27:25 --> Undefined array key "id_siswa"
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:27:52 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:28:14 --> Undefined array key "nis"
+in APPPATH\Views\form\input_tunggakan.php on line 51.
+ 1 APPPATH\Views\form\input_tunggakan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\form\\input_tunggakan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:29:39 --> Undefined array key "nama"
+in APPPATH\Views\form\input_tunggakan.php on line 56.
+ 1 APPPATH\Views\form\input_tunggakan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\form\\input_tunggakan.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(33): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:34:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(77): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:34:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(77): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:35:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(77): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:35:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(77): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:35:36 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('1', 'insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert('1', false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert('1', false)
+ 4 APPPATH\Controllers\siswa.php(85): CodeIgniter\BaseModel->save('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->update('1')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:36:31 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('1', 'insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert('1', false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert('1', false)
+ 4 APPPATH\Controllers\siswa.php(85): CodeIgniter\BaseModel->save('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->update('1')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 21:38:26 --> Too few arguments to function App\Controllers\tunggakan::input(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 22:38:24 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\content\tunggakan.php on line 129.
+ 1 APPPATH\Views\content\tunggakan.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\content\\tunggakan.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 22:39:00 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\content\tunggakan.php on line 129.
+ 1 APPPATH\Views\content\tunggakan.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\content\\tunggakan.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(29): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 22:39:37 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\content\tunggakan.php on line 129.
+ 1 APPPATH\Views\content\tunggakan.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\content\\tunggakan.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(29): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 22:39:45 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\content\tunggakan.php on line 129.
+ 1 APPPATH\Views\content\tunggakan.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\content\\tunggakan.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(29): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 22:40:14 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\content\tunggakan.php on line 129.
+ 1 APPPATH\Views\content\tunggakan.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\content\\tunggakan.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(29): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:11:48 --> Cannot redeclare rupiah() (previously declared in C:\xampp\htdocs\skripsi\app\Views\content\tunggakan.php:97)
+in APPPATH\Views\content\tunggakan.php on line 175.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-11 23:12:31 --> Undefined variable $spp
+in APPPATH\Views\content\tunggakan.php on line 76.
+ 1 APPPATH\Views\content\tunggakan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\tunggakan.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:19:57 --> Undefined variable $spp
+in APPPATH\Views\form\input_tunggakan.php on line 65.
+ 1 APPPATH\Views\form\input_tunggakan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\form\\input_tunggakan.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(36): view('/form/input_tunggakan', [])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->input()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,532 @@
+ERROR - 2023-04-07 00:40:22 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:40:22 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:40:44 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:40:44 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:40:44 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:40:44 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:41:05 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:41:05 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:41:06 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:41:06 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:41:12 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:41:12 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:41:12 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:41:12 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:42:56 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:42:56 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:43:55 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:43:55 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:44:44 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:44:44 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 00:45:14 --> FUNCTION sispp.coun does not exist
+CRITICAL - 2023-04-07 00:45:14 --> FUNCTION sispp.coun does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, coun(jumlah_bayar) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 03:18:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+CRITICAL - 2023-04-07 03:18:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 03:18:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+CRITICAL - 2023-04-07 03:18:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 03:18:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+CRITICAL - 2023-04-07 03:18:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 03:18:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+CRITICAL - 2023-04-07 03:18:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MO...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(*) total
+FROM `bayar_bebas` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 03:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MONTH(tgl...' at line 1
+CRITICAL - 2023-04-07 03:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) total
+FROM `bayar_bebas`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MONTH(tgl...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, (*) total
+FROM `bayar_bebas`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, (*) total
+FROM `bayar_bebas`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, (*) total
+FROM `bayar_bebas`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, (*) total
+FROM `bayar_bebas`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\Home_Model->get_jumlah_transaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showJumlahTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-07 03:57:21 --> Unknown column 'nominal' in 'field list'
+CRITICAL - 2023-04-07 03:57:21 --> Unknown column 'nominal' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, (nominal) total
+FROM `tunggakan`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, (nominal) total
+FROM `tunggakan`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, (nominal) total
+FROM `tunggakan`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, (nominal) total
+FROM `tunggakan`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\Home_Model->get_jumlah_transaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showJumlahTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-07 04:20:51 --> Undefined array key "jenis"
+in APPPATH\Views\content\laporan_spp.php on line 42.
+ 1 APPPATH\Views\content\laporan_spp.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'APPPATH\\Views\\content\\laporan_spp.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\laporan_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/laporan_spp', [], true)
+ 5 APPPATH\Controllers\laporan.php(30): view('content/laporan_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\laporan->spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-07 04:26:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-07 04:27:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-07 04:27:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-07 04:27:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

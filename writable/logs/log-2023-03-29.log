@@ -1,0 +1,13 @@
+ERROR - 2023-03-29 20:53:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-03-29 20:53:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `siswa`', null, false)
+ 3 APPPATH\Models\Home_Model.php(14): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 APPPATH\Controllers\Home.php(19): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

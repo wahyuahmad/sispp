@@ -1,0 +1,476 @@
+CRITICAL - 2023-03-13 01:32:48 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 462.
+ 1 SYSTEMPATH\Router\Router.php(462): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('tunggakan/search')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/search')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 01:40:32 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 462.
+ 1 SYSTEMPATH\Router\Router.php(462): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('tunggakan/search')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/search')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 01:40:54 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 462.
+ 1 SYSTEMPATH\Router\Router.php(462): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('tunggakan/search')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/search')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 01:41:18 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 462.
+ 1 SYSTEMPATH\Router\Router.php(462): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('tunggakan/search')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/search')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 01:44:44 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Tunggakan_Model.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 01:45:16 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Tunggakan_Model.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 02:06:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getresultArray()
+in APPPATH\Models\Tunggakan_Model.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 07:46:35 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Tunggakan_Model.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 07:58:11 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Tunggakan_Model.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 07:58:28 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Tunggakan_Model.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 08:10:44 --> Unknown column 'tunggakan.id_kelas' in 'on clause'
+CRITICAL - 2023-03-13 08:10:44 --> Unknown column 'tunggakan.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 08:11:12 --> Not unique table/alias: 'kelas'
+CRITICAL - 2023-03-13 08:11:12 --> Not unique table/alias: 'kelas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+ORDER BY `nis` DESC', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:12:26 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\input_tunggakan.php on line 29.
+ 1 APPPATH\Controllers\input_tunggakan.php(29): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 08:14:50 --> Unknown column 'siswa' in 'where clause'
+CRITICAL - 2023-03-13 08:14:50 --> Unknown column 'siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `siswa` LIKE \'%1111%\' ESCAPE \'!\'
+ORDER BY `nis` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `siswa` LIKE \'%1111%\' ESCAPE \'!\'
+ORDER BY `nis` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `siswa` LIKE \'%1111%\' ESCAPE \'!\'
+ORDER BY `nis` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`
+WHERE `siswa` LIKE :siswa: ESCAPE \'!\'
+ORDER BY `nis` DESC', [...], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\input_tunggakan.php(28): App\Models\Tunggakan_Model->getsiswa('1111')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:15:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\input_tunggakan.php on line 29.
+ 1 APPPATH\Controllers\input_tunggakan.php(29): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:16:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\input_tunggakan.php on line 29.
+ 1 APPPATH\Controllers\input_tunggakan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\input_tunggakan.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:27:16 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\input_tunggakan.php on line 29.
+ 1 APPPATH\Controllers\input_tunggakan.php(29): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:27:35 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\input_tunggakan.php on line 29.
+ 1 APPPATH\Controllers\input_tunggakan.php(29): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:30:05 --> Call to undefined function App\Controllers\Countable()
+in APPPATH\Controllers\input_tunggakan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:30:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\input_tunggakan.php on line 29.
+ 1 APPPATH\Controllers\input_tunggakan.php(29): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:33:32 --> Undefined variable $spp
+in APPPATH\Views\form\input_tunggakan.php on line 62.
+ 1 APPPATH\Views\form\input_tunggakan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\form\\input_tunggakan.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\input_tunggakan.php(39): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:33:35 --> Undefined variable $spp
+in APPPATH\Views\form\input_tunggakan.php on line 62.
+ 1 APPPATH\Views\form\input_tunggakan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\form\\input_tunggakan.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\input_tunggakan.php(39): view('/form/input_tunggakan')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->search()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:41:41 --> Undefined variable $result_array
+in APPPATH\Controllers\input_tunggakan.php on line 31.
+ 1 APPPATH\Controllers\input_tunggakan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_array', 'APPPATH\\Controllers\\input_tunggakan.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 08:46:44 --> Undefined array key "id_spp"
+in APPPATH\Views\form\input_tunggakan.php on line 63.
+ 1 APPPATH\Views\form\input_tunggakan.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_spp"', 'APPPATH\\Views\\form\\input_tunggakan.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\input_tunggakan.php(22): view('form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 08:52:06 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_1` FOREIGN KEY (`id_siswa`) REFERENCES `siswa` (`id_siswa`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-03-13 08:52:06 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_1` FOREIGN KEY (`id_siswa`) REFERENCES `siswa` (`id_siswa`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (\'1111\', \'wahyu\', \'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (\'1111\', \'wahyu\', \'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (\'1111\', \'wahyu\', \'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (:nis:, :nm_siswa:, :id_kelas:, :id_spp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tunggakan.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 08:55:32 --> Unknown column 'id_kelas' in 'field list'
+CRITICAL - 2023-03-13 08:55:32 --> Unknown column 'id_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (\'1111\', \'wahyu\', \'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (\'1111\', \'wahyu\', \'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (\'1111\', \'wahyu\', \'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`) VALUES (:nis:, :nm_siswa:, :id_kelas:, :id_spp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tunggakan.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 10:05:15 --> Unknown column 'tunggakan.id_siswa' in 'on clause'
+CRITICAL - 2023-03-13 10:05:15 --> Unknown column 'tunggakan.id_siswa' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\tunggakan.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 10:06:06 --> Unknown column 'tunggakan.id_kelas' in 'on clause'
+CRITICAL - 2023-03-13 10:06:06 --> Unknown column 'tunggakan.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\tunggakan.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 10:06:17 --> Undefined array key "kelas"
+in APPPATH\Views\content\tunggakan.php on line 55.
+ 1 APPPATH\Views\content\tunggakan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'APPPATH\\Views\\content\\tunggakan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 10:07:34 --> Undefined array key "jumlah
+                                "
+in APPPATH\Views\content\tunggakan.php on line 57.
+ 1 APPPATH\Views\content\tunggakan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah
+                                "', 'APPPATH\\Views\\content\\tunggakan.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 10:07:52 --> Undefined array key "nominal
+                                "
+in APPPATH\Views\content\tunggakan.php on line 57.
+ 1 APPPATH\Views\content\tunggakan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nominal
+                                "', 'APPPATH\\Views\\content\\tunggakan.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 10:07:56 --> Undefined array key "nominal
+                                "
+in APPPATH\Views\content\tunggakan.php on line 57.
+ 1 APPPATH\Views\content\tunggakan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nominal
+                                "', 'APPPATH\\Views\\content\\tunggakan.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(27): view('/content/tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 10:15:20 --> Undefined variable $siswa
+in APPPATH\Views\form\input_tunggakan.php on line 46.
+ 1 APPPATH\Views\form\input_tunggakan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\form\\input_tunggakan.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\input_tunggakan.php(22): view('form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\input_tunggakan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input_tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 23:14:19 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_3` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-03-13 23:14:19 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_3` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (:nis:, :nm_siswa:, :id_spp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tunggakan.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 23:14:58 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_3` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-03-13 23:14:58 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_3` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (:nis:, :nm_siswa:, :id_spp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tunggakan.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 23:16:19 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_3` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-03-13 23:16:19 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_3` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (\'1111\', \'kusuma wijaya\', \'150000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_spp`) VALUES (:nis:, :nm_siswa:, :id_spp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tunggakan.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

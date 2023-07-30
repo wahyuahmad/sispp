@@ -1,0 +1,127 @@
+CRITICAL - 2023-04-11 00:21:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_kelas.php on line 18.
+ 1 APPPATH\Views\form\edit_kelas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_kelas.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_kelas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_kelas', [], true)
+ 5 APPPATH\Controllers\kelas.php(70): view('/form/edit_kelas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:22:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_spp.php on line 21.
+ 1 APPPATH\Views\form\edit_spp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_spp.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_spp', [], true)
+ 5 APPPATH\Controllers\spp.php(69): view('/form/edit_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\spp->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\spp))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:24:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_bebas.php on line 21.
+ 1 APPPATH\Views\form\edit_bebas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_bebas.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_bebas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_bebas', [], true)
+ 5 APPPATH\Controllers\bebas.php(78): view('/form/edit_bebas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:25:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:25:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\input_tunggakan.php on line 33.
+ 1 APPPATH\Views\form\input_tunggakan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\input_tunggakan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_tunggakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/input_tunggakan', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(35): view('/form/input_tunggakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->input('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:28:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_bebas.php on line 17.
+ 1 APPPATH\Views\form\bayar_bebas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_bebas.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_bebas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/bayar_bebas', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(62): view('form/bayar_bebas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->bayar('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-11 00:29:45 --> Table 'sispp.beasiswa' doesn't exist
+CRITICAL - 2023-04-11 00:29:45 --> Table 'sispp.beasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `beasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `beasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `beasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `beasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\beasiswa.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\beasiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\beasiswa))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:30:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_bebas.php on line 17.
+ 1 APPPATH\Views\form\bayar_bebas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_bebas.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_bebas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/bayar_bebas', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(62): view('form/bayar_bebas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->bayar('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:30:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_bebas.php on line 17.
+ 1 APPPATH\Views\form\bayar_bebas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_bebas.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_bebas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/bayar_bebas', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(62): view('form/bayar_bebas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->bayar('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-11 00:31:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_bebas.php on line 17.
+ 1 APPPATH\Views\form\bayar_bebas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_bebas.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_bebas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/bayar_bebas', [], true)
+ 5 APPPATH\Controllers\bebas_bayar.php(62): view('form/bayar_bebas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bebas_bayar->bayar('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bebas_bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

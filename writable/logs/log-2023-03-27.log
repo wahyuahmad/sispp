@@ -1,0 +1,813 @@
+CRITICAL - 2023-03-27 01:14:23 --> Too few arguments to function App\Models\Home_Model::gettransaksi(), 0 passed in C:\xampp\htdocs\skripsi\app\Controllers\Home.php on line 23 and exactly 1 expected
+in APPPATH\Models\Home_Model.php on line 35.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_Model->gettransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 01:14:44 --> Call to a member function result() on array
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 01:15:01 --> number_format(): Argument #1 ($num) must be of type float, array given
+in APPPATH\Views\content\home.php on line 165.
+ 1 APPPATH\Views\content\home.php(165): number_format([...], 2, ',', 'ROOTPATH\\public')
+ 2 APPPATH\Views\content\home.php(58): rupiah([...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 6 APPPATH\Controllers\Home.php(25): view('content/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 01:15:52 --> number_format(): Argument #1 ($num) must be of type float, array given
+in APPPATH\Views\content\home.php on line 187.
+ 1 APPPATH\Views\content\home.php(187): number_format([...], 2, ',', 'ROOTPATH\\public')
+ 2 APPPATH\Views\content\home.php(58): rupiah([...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 6 APPPATH\Controllers\Home.php(25): view('content/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 01:29:53 --> You must provide a valid column name not separated by comma.
+in SYSTEMPATH\Database\BaseBuilder.php on line 491.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(491): CodeIgniter\Database\Exceptions\DataException::forInvalidArgument('column name not separated by comma')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(458): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('MONTH(tgl_bayar) bulan,(jumlah_bayar) total', 'ROOTPATH\\public', 'COUNT')
+ 3 APPPATH\Models\Home_Model.php(37): CodeIgniter\Database\BaseBuilder->selectCount('MONTH(tgl_bayar) bulan,(jumlah_bayar) total')
+ 4 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 01:30:26 --> You must provide a valid column name not separated by comma.
+in SYSTEMPATH\Database\BaseBuilder.php on line 491.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(491): CodeIgniter\Database\Exceptions\DataException::forInvalidArgument('column name not separated by comma')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(448): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('MONTH(tgl_bayar) bulan,(jumlah_bayar) total', 'ROOTPATH\\public', 'SUM')
+ 3 APPPATH\Models\Home_Model.php(37): CodeIgniter\Database\BaseBuilder->selectSum('MONTH(tgl_bayar) bulan,(jumlah_bayar) total')
+ 4 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 01:30:31 --> You must provide a valid column name not separated by comma.
+in SYSTEMPATH\Database\BaseBuilder.php on line 491.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(491): CodeIgniter\Database\Exceptions\DataException::forInvalidArgument('column name not separated by comma')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(448): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('MONTH(tgl_bayar) bulan,(jumlah_bayar) total', 'ROOTPATH\\public', 'SUM')
+ 3 APPPATH\Models\Home_Model.php(37): CodeIgniter\Database\BaseBuilder->selectSum('MONTH(tgl_bayar) bulan,(jumlah_bayar) total')
+ 4 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 01:38:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=1) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MONTH(t...' at line 1
+CRITICAL - 2023-03-27 01:38:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=1) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY MONTH(t...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar==1) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar==1) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar==1) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar==1) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 01:40:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sum(jumlah_bayar) = '2023'
+ORDER BY MONTH(tgl_bayar)' at line 3
+CRITICAL - 2023-03-27 01:40:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sum(jumlah_bayar) = '2023'
+ORDER BY MONTH(tgl_bayar)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),sum(jumlah_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),sum(jumlah_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),sum(jumlah_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),sum(jumlah_bayar) = :YEAR(tgl_bayar),sum(jumlah_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 01:44:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '+(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDE...' at line 1
+CRITICAL - 2023-03-27 01:44:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '+(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDE...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan+(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan+(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan+(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan+(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 01:59:00 --> Unknown column 'MONTH' in 'where clause'
+CRITICAL - 2023-03-27 01:59:00 --> Unknown column 'MONTH' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar)-MONTH = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar)-MONTH = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar)-MONTH = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, (jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar)-MONTH = :YEAR(tgl_bayar)-MONTH:
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:20:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(jumlah_bayar) total = '2023'
+ORDER BY MONTH(tgl_bayar)' at line 3
+CRITICAL - 2023-03-27 02:20:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(jumlah_bayar) total = '2023'
+ORDER BY MONTH(tgl_bayar)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),(jumlah_bayar) total = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),(jumlah_bayar) total = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),(jumlah_bayar) total = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar),(jumlah_bayar) total = :YEAR(tgl_bayar),(jumlah_bayar) total:
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:22:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY...' at line 1
+CRITICAL - 2023-03-27 02:22:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:22:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY...' at line 1
+CRITICAL - 2023-03-27 02:22:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = '2023'
+ORDER BY...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(jumlah_bayar) (tgl_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:29:34 --> FUNCTION sispp.average does not exist
+CRITICAL - 2023-03-27 02:29:34 --> FUNCTION sispp.average does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, average(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, average(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, average(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, average(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:30:28 --> FUNCTION sispp.summax does not exist
+CRITICAL - 2023-03-27 02:30:28 --> FUNCTION sispp.summax does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, summax(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, summax(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, summax(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, summax(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:31:30 --> Invalid use of group function
+CRITICAL - 2023-03-27 02:31:30 --> Invalid use of group function
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum(max(jumlah_bayar)) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum(max(jumlah_bayar)) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum(max(jumlah_bayar)) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum(max(jumlah_bayar)) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 02:31:55 --> syntax error, unexpected identifier "MONTH", expecting ")"
+in APPPATH\Models\Home_Model.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Home_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Home_Model')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Home_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 02:33:44 --> Unknown column 'sum' in 'field list'
+CRITICAL - 2023-03-27 02:33:44 --> Unknown column 'sum' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(tgl_bayar) bulan, sum>(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(tgl_bayar) bulan, sum>(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(tgl_bayar) bulan, sum>(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = \'2023\'
+ORDER BY MONTH(tgl_bayar)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tgl_bayar) bulan, sum>(jumlah_bayar) total
+FROM `bayar` as `b`
+WHERE YEAR(tgl_bayar) = :YEAR(tgl_bayar):
+ORDER BY MONTH(tgl_bayar)', [...], false)
+ 5 APPPATH\Models\Home_Model.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\Home_Model->gettransaksi('2023')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->showChartTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 20:57:00 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\siswa.php on line 81.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 20:57:41 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_4` FOREIGN KEY (`id_siswa`) REFERENCES `siswa` (`id_siswa`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-03-27 20:57:41 --> Cannot add or update a child row: a foreign key constraint fails (`sispp`.`tunggakan`, CONSTRAINT `tunggakan_ibfk_4` FOREIGN KEY (`id_siswa`) REFERENCES `siswa` (`id_siswa`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `bulan`) VALUES (\'8888\', \'ahmad wahyu khoerudin\', \'2\', \'7\', \'125000\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `bulan`) VALUES (\'8888\', \'ahmad wahyu khoerudin\', \'2\', \'7\', \'125000\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `bulan`) VALUES (\'8888\', \'ahmad wahyu khoerudin\', \'2\', \'7\', \'125000\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `bulan`) VALUES (:nis:, :nm_siswa:, :id_kelas:, :id_spp:, :nominal:, :bulan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\siswa.php(86): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 21:12:39 --> Cannot redeclare rupiah() (previously declared in C:\xampp\htdocs\skripsi\app\Views\form\input_siswa.php:111)
+in APPPATH\Views\form\input_siswa.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-27 21:19:42 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getArgs()
+in APPPATH\Controllers\siswa.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 21:26:13 --> Column 'jatuh_tempo' cannot be null
+CRITICAL - 2023-03-27 21:26:13 --> Column 'jatuh_tempo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'6546\', \'wahyu\', \'3\', \'4\', \'125000\', NULL, \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'6546\', \'wahyu\', \'3\', \'4\', \'125000\', NULL, \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'6546\', \'wahyu\', \'3\', \'4\', \'125000\', NULL, \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (:nis:, :nm_siswa:, :id_kelas:, :id_spp:, :nominal:, :jatuh_tempo:, :bulan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\siswa.php(87): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 21:41:51 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, array given, called in C:\xampp\htdocs\skripsi\system\HTTP\IncomingRequest.php on line 503
+in SYSTEMPATH\HTTP\RequestTrait.php on line 217.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(503): CodeIgniter\HTTP\Request->fetchGlobal('request', 'bulan', [...], null)
+ 2 APPPATH\Controllers\siswa.php(87): CodeIgniter\HTTP\IncomingRequest->getVar('bulan', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 21:48:55 --> Undefined array key "januari"
+in APPPATH\Controllers\siswa.php on line 87.
+ 1 APPPATH\Controllers\siswa.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "januari"', 'APPPATH\\Controllers\\siswa.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 21:49:42 --> Illegal offset type
+in SYSTEMPATH\HTTP\RequestTrait.php on line 247.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(503): CodeIgniter\HTTP\Request->fetchGlobal('request', [...], 516, 0)
+ 2 APPPATH\Controllers\siswa.php(87): CodeIgniter\HTTP\IncomingRequest->getVar([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 21:53:33 --> Operand should contain 1 column(s)
+CRITICAL - 2023-03-27 21:53:33 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'6789\', \'wahyu\', \'2\', \'4\', \'125000\', NULL, (NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'6789\', \'wahyu\', \'2\', \'4\', \'125000\', NULL, (NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'6789\', \'wahyu\', \'2\', \'4\', \'125000\', NULL, (NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (:nis:, :nm_siswa:, :id_kelas:, :id_spp:, :nominal:, :jatuh_tempo:, :bulan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\siswa.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:07:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:07:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:07:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:10:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:10:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:10:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:11:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:11:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:11:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:12:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:12:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 22:12:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(112): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 22:22:58 --> Unknown column 'jatuh_tempo' in 'field list'
+CRITICAL - 2023-03-27 22:22:58 --> Unknown column 'jatuh_tempo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'3456\', \'wahyu\', \'1\', \'4\', \'125000\', NULL, \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'3456\', \'wahyu\', \'1\', \'4\', \'125000\', NULL, \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (\'3456\', \'wahyu\', \'1\', \'4\', \'125000\', NULL, \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tunggakan` (`nis`, `nm_siswa`, `id_kelas`, `id_spp`, `nominal`, `jatuh_tempo`, `bulan`) VALUES (:nis:, :nm_siswa:, :id_kelas:, :id_spp:, :nominal:, :jatuh_tempo:, :bulan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\siswa.php(87): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 23:43:09 --> Unknown column 'tunggakan.id_siswa' in 'on clause'
+CRITICAL - 2023-03-27 23:43:09 --> Unknown column 'tunggakan.id_siswa' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `siswa` ON `siswa`.`id_siswa`=`tunggakan`.`id_siswa`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\bayar.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bayar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bayar))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 23:43:35 --> Unknown column 'siswa.id_kelas' in 'on clause'
+CRITICAL - 2023-03-27 23:43:35 --> Unknown column 'siswa.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\bayar.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bayar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bayar))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 23:45:18 --> Unknown column 'siswa.id_kelas' in 'on clause'
+CRITICAL - 2023-03-27 23:45:18 --> Unknown column 'siswa.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\bayar.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bayar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bayar))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 23:46:30 --> Unknown column 'siswa.id_kelas' in 'on clause'
+CRITICAL - 2023-03-27 23:46:30 --> Unknown column 'siswa.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\bayar.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bayar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bayar))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 23:46:59 --> Unknown column 'siswa.id_kelas' in 'on clause'
+CRITICAL - 2023-03-27 23:46:59 --> Unknown column 'siswa.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`siswa`.`id_kelas`', [], false)
+ 5 APPPATH\Models\Tunggakan_Model.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\bayar.php(25): App\Models\Tunggakan_Model->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bayar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bayar))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 23:47:49 --> Undefined array key "id_siswa"
+in APPPATH\Views\content\bayar.php on line 55.
+ 1 APPPATH\Views\content\bayar.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\content\\bayar.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/bayar', [], true)
+ 5 APPPATH\Controllers\bayar.php(26): view('content/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\bayar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bayar))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 23:49:05 --> Undefined array key "id_siswa"
+in APPPATH\Views\form\bayar_spp.php on line 18.
+ 1 APPPATH\Views\form\bayar_spp.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\form\\bayar_spp.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(54): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

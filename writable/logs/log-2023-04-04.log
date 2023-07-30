@@ -1,0 +1,507 @@
+CRITICAL - 2023-04-04 09:08:52 --> Cannot use [] for reading
+in APPPATH\Controllers\siswa.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:15:03 --> Undefined array key 12
+in APPPATH\Controllers\siswa.php on line 84.
+ 1 APPPATH\Controllers\siswa.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 12', 'APPPATH\\Controllers\\siswa.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:15:39 --> Undefined array key 12
+in APPPATH\Controllers\siswa.php on line 85.
+ 1 APPPATH\Controllers\siswa.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 12', 'APPPATH\\Controllers\\siswa.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:26:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_spp.php on line 27.
+ 1 APPPATH\Views\form\bayar_spp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_spp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:27:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_spp.php on line 27.
+ 1 APPPATH\Views\form\bayar_spp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_spp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:28:25 --> Undefined array key "keterangan"
+in APPPATH\Views\form\bayar_spp.php on line 69.
+ 1 APPPATH\Views\form\bayar_spp.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'APPPATH\\Views\\form\\bayar_spp.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:30:18 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 121.
+ 1 APPPATH\Views\form\bayar_spp.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 121)
+ 2 APPPATH\Views\form\bayar_spp.php(67): tanggal_indonesia('December')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:31:25 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 121.
+ 1 APPPATH\Views\form\bayar_spp.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 121)
+ 2 APPPATH\Views\form\bayar_spp.php(67): tanggal_indonesia('04')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:31:29 --> Undefined array key 2
+in APPPATH\Views\form\bayar_spp.php on line 121.
+ 1 APPPATH\Views\form\bayar_spp.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\form\\bayar_spp.php', 121)
+ 2 APPPATH\Views\form\bayar_spp.php(67): tanggal_indonesia('04')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:32:24 --> Undefined array key 1
+in APPPATH\Views\form\bayar_spp.php on line 121.
+ 1 APPPATH\Views\form\bayar_spp.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\form\\bayar_spp.php', 121)
+ 2 APPPATH\Views\form\bayar_spp.php(67): tanggal_indonesia('04')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:32:56 --> Undefined array key 1
+in APPPATH\Views\form\bayar_spp.php on line 121.
+ 1 APPPATH\Views\form\bayar_spp.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\form\\bayar_spp.php', 121)
+ 2 APPPATH\Views\form\bayar_spp.php(67): tanggal_indonesia('04')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 6 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:37:11 --> Undefined array key "tahun"
+in APPPATH\Views\form\bayar_spp.php on line 69.
+ 1 APPPATH\Views\form\bayar_spp.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tahun"', 'APPPATH\\Views\\form\\bayar_spp.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:40:40 --> Undefined variable $row
+in APPPATH\Views\form\bayar_spp.php on line 65.
+ 1 APPPATH\Views\form\bayar_spp.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\form\\bayar_spp.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(104): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-04 09:46:35 --> Unknown column 'tunggakan.id' in 'where clause'
+CRITICAL - 2023-04-04 09:46:35 --> Unknown column 'tunggakan.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tunggakan` SET `tgl_bayar` = \'23-04-04\'
+WHERE `tunggakan`.`id` IN (\'123\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tunggakan` SET `tgl_bayar` = \'23-04-04\'
+WHERE `tunggakan`.`id` IN (\'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tunggakan` SET `tgl_bayar` = \'23-04-04\'
+WHERE `tunggakan`.`id` IN (\'123\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `tunggakan` SET `tgl_bayar` = :tgl_bayar:
+WHERE `tunggakan`.`id` IN :tunggakan.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\tunggakan.php(110): CodeIgniter\Model->update('123', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar('123')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:55:45 --> Undefined array key 2
+in APPPATH\Views\content\export_siswa.php on line 161.
+ 1 APPPATH\Views\content\export_siswa.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\content\\export_siswa.php', 161)
+ 2 APPPATH\Views\content\export_siswa.php(96): tanggal_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\export_siswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_siswa', [], true)
+ 6 APPPATH\Controllers\laporan.php(44): view('content/export_siswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\laporan->cetak_laporan_siswa('18')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 09:58:55 --> Call to undefined function tanggal_indonesia()
+in APPPATH\Views\content\tunggakan.php on line 122.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/content/tunggakan', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(38): view('/content/tunggakan', [...])
+ 5 APPPATH\Controllers\tunggakan.php(44): App\Controllers\tunggakan->index(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->filter()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:17:10 --> A non-numeric value encountered
+in APPPATH\Views\content\export_siswa.php on line 89.
+ 1 APPPATH\Views\content\export_siswa.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Views\\content\\export_siswa.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\export_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_siswa', [], true)
+ 5 APPPATH\Controllers\laporan.php(44): view('content/export_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\laporan->cetak_laporan_siswa('18')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:37:31 --> Too few arguments to function App\Controllers\tunggakan::bayar_spp(), 0 passed in C:\xampp\htdocs\skripsi\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\tunggakan.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:51:13 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\form\bayar_spp.php on line 25.
+ 1 APPPATH\Views\form\bayar_spp.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\form\\bayar_spp.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:52:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_spp.php on line 29.
+ 1 APPPATH\Views\form\bayar_spp.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_spp.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:52:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_spp.php on line 29.
+ 1 APPPATH\Views\form\bayar_spp.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_spp.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:53:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\bayar_spp.php on line 29.
+ 1 APPPATH\Views\form\bayar_spp.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\bayar_spp.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:53:25 --> Undefined array key "kelas"
+in APPPATH\Views\form\bayar_spp.php on line 41.
+ 1 APPPATH\Views\form\bayar_spp.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'APPPATH\\Views\\form\\bayar_spp.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\bayar_spp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:54:40 --> Cannot access offset of type string on string
+in APPPATH\Views\form\bayar_spp.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:55:18 --> Cannot access offset of type string on string
+in APPPATH\Views\form\bayar_spp.php on line 77.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-04 10:56:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND `nis` = :nis:
+ LIMIT 1' at line 3
+CRITICAL - 2023-04-04 10:56:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND `nis` = :nis:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND `nis` = :nis:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND `nis` = :nis:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND `nis` = :nis:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Tunggakan_Model.php(45): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-04 10:56:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND `nis` = :nis:
+ LIMIT 1' at line 3
+CRITICAL - 2023-04-04 10:56:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND `nis` = :nis:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND `nis` = :nis:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND `nis` = :nis:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND `nis` = :nis:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Tunggakan_Model.php(45): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-04 10:57:26 --> Unknown column 'spp' in 'where clause'
+CRITICAL - 2023-04-04 10:57:26 --> Unknown column 'spp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+WHERE `spp` = \'spp.id_spp=tunggakan.id_spp\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+WHERE `spp` = \'spp.id_spp=tunggakan.id_spp\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+WHERE `spp` = \'spp.id_spp=tunggakan.id_spp\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+WHERE `spp` = :spp:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Tunggakan_Model.php(45): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:57:54 --> CodeIgniter\Database\BaseBuilder::where(): Argument #3 ($escape) must be of type ?bool, array given, called in C:\xampp\htdocs\skripsi\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 672.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->where('spp.id_spp=tunggakan.id_spp', 'kelas.id_kelas=tunggakan.id_kelas', [...])
+ 2 APPPATH\Models\Tunggakan_Model.php(45): CodeIgniter\Model->__call('where', [...])
+ 3 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-04 10:58:17 --> Unknown column 'spp' in 'where clause'
+CRITICAL - 2023-04-04 10:58:17 --> Unknown column 'spp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+WHERE `spp` = \'spp.id_spp=tunggakan.id_spp\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+WHERE `spp` = \'spp.id_spp=tunggakan.id_spp\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+WHERE `spp` = \'spp.id_spp=tunggakan.id_spp\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+WHERE `spp` = :spp:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Tunggakan_Model.php(45): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:58:46 --> Cannot use object of type App\Models\Tunggakan_Model as array
+in APPPATH\Views\form\bayar_spp.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/bayar_spp', [], true)
+ 4 APPPATH\Controllers\tunggakan.php(103): view('/form/bayar_spp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 10:59:29 --> Call to undefined function kelas.id_kelas=tunggakan.id_kelas()
+in APPPATH\Models\Tunggakan_Model.php on line 45.
+ 1 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 11:00:32 --> CodeIgniter\Database\BaseBuilder::where(): Argument #3 ($escape) must be of type ?bool, array given, called in C:\xampp\htdocs\skripsi\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 672.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->where('spp', 'spp.id_spp=tunggakan.id_spp', [...])
+ 2 APPPATH\Models\Tunggakan_Model.php(45): CodeIgniter\Model->__call('where', [...])
+ 3 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 11:00:45 --> Call to undefined function spp.id_spp=tunggakan.id_spp()
+in APPPATH\Models\Tunggakan_Model.php on line 45.
+ 1 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari('18')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 21:22:18 --> Call to undefined function spp.id_spp=tunggakan.id_spp()
+in APPPATH\Models\Tunggakan_Model.php on line 45.
+ 1 APPPATH\Controllers\tunggakan.php(101): App\Models\Tunggakan_Model->cari(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->bayar_spp()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

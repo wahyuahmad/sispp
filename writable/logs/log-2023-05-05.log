@@ -1,0 +1,831 @@
+CRITICAL - 2023-05-05 07:24:12 --> Undefined variable $permission
+in APPPATH\Views\layout\template.php on line 29.
+ 1 APPPATH\Views\layout\template.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $permission', 'APPPATH\\Views\\layout\\template.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 6 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 07:54:15 --> Call to undefined function has_permission()
+in APPPATH\Views\content\home.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 4 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:27:09 --> Undefined variable $isi
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:28:04 --> Undefined variable $isi
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:28:25 --> Undefined variable $isi
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:28:29 --> Undefined variable $isi
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:29:53 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:32:29 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:34:05 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:34:26 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:35:15 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 265.
+ 1 APPPATH\Views\content\home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 265)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:35:18 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 265.
+ 1 APPPATH\Views\content\home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 265)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:35:36 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 265.
+ 1 APPPATH\Views\content\home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 265)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:35:38 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 265.
+ 1 APPPATH\Views\content\home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 265)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:37:34 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:39:33 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:41:11 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:41:14 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:42:22 --> Undefined variable $spp
+in APPPATH\Views\content\home.php on line 266.
+ 1 APPPATH\Views\content\home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Views\\content\\home.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:46:21 --> Undefined property: App\Controllers\Home::$Siswa_Model
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Siswa_Model', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:47:11 --> Call to a member function username() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:47:54 --> Call to undefined method App\Models\Siswa_Model::session
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Siswa_Model.php(41): CodeIgniter\Model->__call('session', [...])
+ 2 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:49:15 --> Call to a member function user() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:50:11 --> Call to a member function user() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:50:16 --> Call to a member function user() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 08:50:55 --> Undefined variable $bebas
+in APPPATH\Views\content\home.php on line 360.
+ 1 APPPATH\Views\content\home.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bebas', 'APPPATH\\Views\\content\\home.php', 360)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:06:42 --> Call to undefined method App\Models\Siswa_Model::session
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Siswa_Model.php(41): CodeIgniter\Model->__call('session', [])
+ 2 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:11:38 --> Call to a member function auth_group() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:13:25 --> Call to a member function in_groups() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:14:46 --> Call to a member function has_permission() on null
+in APPPATH\Models\Siswa_Model.php on line 41.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:17:04 --> Call to a member function getPost() on null
+in APPPATH\Models\Siswa_Model.php on line 40.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:17:44 --> Call to a member function getvar() on null
+in APPPATH\Models\Siswa_Model.php on line 40.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:19:21 --> Call to undefined method App\Models\Siswa_Model::session
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Siswa_Model.php(50): CodeIgniter\Model->__call('session', [])
+ 2 APPPATH\Controllers\Home.php(27): App\Models\Siswa_Model->histori_bayar()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 09:26:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+CRITICAL - 2023-05-05 09:26:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', [], false)
+ 5 APPPATH\Models\Siswa_Model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 09:27:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+CRITICAL - 2023-05-05 09:27:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', [], false)
+ 5 APPPATH\Models\Siswa_Model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 09:27:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+CRITICAL - 2023-05-05 09:27:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', [], false)
+ 5 APPPATH\Models\Siswa_Model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 09:27:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+CRITICAL - 2023-05-05 09:27:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', [], false)
+ 5 APPPATH\Models\Siswa_Model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 09:28:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+CRITICAL - 2023-05-05 09:28:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'afif' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE hasnan afif', [], false)
+ 5 APPPATH\Models\Siswa_Model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:35:52 --> Call to a member function user() on null
+in APPPATH\Models\Siswa_Model.php on line 42.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 09:36:11 --> Object of class Myth\Auth\Entities\User could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `nm_siswa` = :nm_siswa:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `nm_siswa` = :nm_siswa:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tunggakan`
+JOIN `spp` ON `spp`.`id_spp`=`tunggakan`.`id_spp`
+JOIN `kelas` ON `kelas`.`id_kelas`=`tunggakan`.`id_kelas`
+WHERE `nm_siswa` = :nm_siswa:', [...], false)
+ 6 APPPATH\Models\Siswa_Model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(26): App\Models\Siswa_Model->histori()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 09:37:31 --> Unknown column 'nm_siswa' in 'where clause'
+CRITICAL - 2023-05-05 09:37:31 --> Unknown column 'nm_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `bayar_bebas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`bayar_bebas`.`id_kelas`
+JOIN `bebas` ON `bebas`.`id_bebas`=`bayar_bebas`.`id_bebas`
+WHERE `nm_siswa` = \'hasnan afif\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bayar_bebas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`bayar_bebas`.`id_kelas`
+JOIN `bebas` ON `bebas`.`id_bebas`=`bayar_bebas`.`id_bebas`
+WHERE `nm_siswa` = \'hasnan afif\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bayar_bebas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`bayar_bebas`.`id_kelas`
+JOIN `bebas` ON `bebas`.`id_bebas`=`bayar_bebas`.`id_bebas`
+WHERE `nm_siswa` = \'hasnan afif\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bayar_bebas`
+JOIN `kelas` ON `kelas`.`id_kelas`=`bayar_bebas`.`id_kelas`
+JOIN `bebas` ON `bebas`.`id_bebas`=`bayar_bebas`.`id_bebas`
+WHERE `nm_siswa` = :nm_siswa:', [...], false)
+ 5 APPPATH\Models\Siswa_Model.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(27): App\Models\Siswa_Model->histori_bayar()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 11:47:40 --> Undefined variable $siswa
+in APPPATH\Views\content\user.php on line 50.
+ 1 APPPATH\Views\content\user.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\content\\user.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 11:48:00 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\content\user.php on line 64.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 3 APPPATH\Controllers\user.php(20): view('content/user')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:08:43 --> Undefined array key "id_siswa"
+in APPPATH\Views\content\user.php on line 57.
+ 1 APPPATH\Views\content\user.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_siswa"', 'APPPATH\\Views\\content\\user.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 12:15:39 --> Table 'sispp.auth_groups_user' doesn't exist
+CRITICAL - 2023-05-05 12:15:39 --> Table 'sispp.auth_groups_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_user` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_user` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_user` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_user` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\User_Model.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\user.php(19): App\Models\User_Model->get_users()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 12:16:10 --> Unknown column 'users.user.id' in 'on clause'
+CRITICAL - 2023-05-05 12:16:10 --> Unknown column 'users.user.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`user`.`id`=`gs`.`user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\User_Model.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\user.php(19): App\Models\User_Model->get_users()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 12:16:21 --> Unknown column 'users.users.id' in 'on clause'
+CRITICAL - 2023-05-05 12:16:21 --> Unknown column 'users.users.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`users`.`id`=`gs`.`user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`users`.`id`=`gs`.`user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`users`.`id`=`gs`.`user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `email`, `username`, `gs`.`group_id`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`users`.`id`=`gs`.`user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\User_Model.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\user.php(19): App\Models\User_Model->get_users()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:16:55 --> Undefined array key "password_hash"
+in APPPATH\Views\content\user.php on line 55.
+ 1 APPPATH\Views\content\user.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password_hash"', 'APPPATH\\Views\\content\\user.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:20:17 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\skripsi\system\Model.php on line 771 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 593.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->join('auth_groups gg.id=gs.group_id')
+ 2 APPPATH\Models\User_Model.php(19): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\user.php(19): App\Models\User_Model->get_users()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:22:39 --> Undefined array key "group_name"
+in APPPATH\Views\content\user.php on line 55.
+ 1 APPPATH\Views\content\user.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_name"', 'APPPATH\\Views\\content\\user.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:22:51 --> Undefined array key "groups_name"
+in APPPATH\Views\content\user.php on line 55.
+ 1 APPPATH\Views\content\user.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "groups_name"', 'APPPATH\\Views\\content\\user.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:24:06 --> Undefined array key "g_name"
+in APPPATH\Views\content\user.php on line 55.
+ 1 APPPATH\Views\content\user.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_name"', 'APPPATH\\Views\\content\\user.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:31:01 --> Undefined array key "id"
+in APPPATH\Views\content\user.php on line 58.
+ 1 APPPATH\Views\content\user.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\content\\user.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:31:55 --> Undefined array key "id"
+in APPPATH\Views\content\user.php on line 58.
+ 1 APPPATH\Views\content\user.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\content\\user.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:32:48 --> Undefined array key "id"
+in APPPATH\Views\content\user.php on line 58.
+ 1 APPPATH\Views\content\user.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\content\\user.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:33:05 --> Undefined array key "id_user"
+in APPPATH\Views\content\user.php on line 58.
+ 1 APPPATH\Views\content\user.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'APPPATH\\Views\\content\\user.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:33:34 --> Undefined array key "id"
+in APPPATH\Views\content\user.php on line 52.
+ 1 APPPATH\Views\content\user.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\content\\user.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 12:34:04 --> Column 'id' in field list is ambiguous
+CRITICAL - 2023-05-05 12:34:04 --> Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `email`, `username`, `gs`.`group_id`, `g`.`name` `group_name`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`id`=`gs`.`user_id`
+JOIN `auth_groups` `g` ON `g`.`id`=`gs`.`group_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `email`, `username`, `gs`.`group_id`, `g`.`name` `group_name`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`id`=`gs`.`user_id`
+JOIN `auth_groups` `g` ON `g`.`id`=`gs`.`group_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `email`, `username`, `gs`.`group_id`, `g`.`name` `group_name`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`id`=`gs`.`user_id`
+JOIN `auth_groups` `g` ON `g`.`id`=`gs`.`group_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `email`, `username`, `gs`.`group_id`, `g`.`name` `group_name`
+FROM `users`
+JOIN `auth_groups_users` `gs` ON `users`.`id`=`gs`.`user_id`
+JOIN `auth_groups` `g` ON `g`.`id`=`gs`.`group_id`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\User_Model.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\user.php(19): App\Models\User_Model->get_users()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-05 12:36:32 --> Undefined array key "group_name"
+in APPPATH\Views\content\user.php on line 54.
+ 1 APPPATH\Views\content\user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_name"', 'APPPATH\\Views\\content\\user.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/user', [], true)
+ 5 APPPATH\Controllers\user.php(20): view('content/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-05 22:59:30 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2023-05-05 23:21:44 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.google.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+ERROR - 2023-05-05 23:22:09 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.google.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+ERROR - 2023-05-05 23:22:22 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.google.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+ERROR - 2023-05-05 23:22:50 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.google.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+ERROR - 2023-05-05 23:25:38 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.google.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)

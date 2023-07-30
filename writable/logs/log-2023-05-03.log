@@ -1,0 +1,2209 @@
+ERROR - 2023-05-03 07:07:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-05-03 07:07:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:10:04 -->  filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ROOTPATH\\public')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-03 07:11:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-05-03 07:11:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '11')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('11')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:34:28 --> Class "App\Controllers\Options" not found
+in APPPATH\Controllers\tunggakan.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:42:01 --> syntax error, unexpected token "catch", expecting "function" or "const"
+in VENDORPATH\dompdf\dompdf\src\Image\Cache.php on line 167.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(220): CodeIgniter\Autoloader\Autoloader->includeFile('VENDORPATH\\dompdf\\dompdf\\src\\Image\\Cache.php')
+ 2 VENDORPATH\dompdf\dompdf\src\FrameDecorator\Image.php(53): CodeIgniter\Autoloader\Autoloader->loadClassmap('Dompdf\\Image\\Cache')
+ 3 VENDORPATH\dompdf\dompdf\src\Frame\Factory.php(198): Dompdf\FrameDecorator\Image->__construct(Object(Dompdf\Frame), Object(Dompdf\Dompdf))
+ 4 VENDORPATH\dompdf\dompdf\src\Dompdf.php(731): Dompdf\Frame\Factory::decorate_frame(Object(Dompdf\Frame), Object(Dompdf\Dompdf), Object(Dompdf\FrameDecorator\Page))
+ 5 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:42:54 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-03 07:49:13 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\tunggakan.php on line 60.
+ 1 APPPATH\Controllers\tunggakan.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\tunggakan.php', 60)
+ 2 APPPATH\Controllers\tunggakan.php(60): require()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:51:18 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "<img src="img/logosmk.png">"
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 435.
+ 1 VENDORPATH\dompdf\dompdf\src\Dompdf.php(435): mb_convert_encoding('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+', 'UTF-8', '<img src="img/logosmk.png">')
+ 2 APPPATH\Controllers\tunggakan.php(68): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+', '<img src="img/logosmk.png">')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:51:56 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('file://C:\\xampp\\htdocs\\skripsi\\public\\img\\logosmk.png', 34.01574803149606, -14.735748031496087, 585.0, 576.0)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('file://C:\\xampp\\htdocs\\skripsi\\public\\img\\logosmk.png', 34.01574803149606, 34.01574803149606, 585.0, 576.0, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\tunggakan.php(74): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 07:52:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-03 08:08:22 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\tunggakan.php on line 65.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('tunggakan/export_pdf')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('tunggakan/export_pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/export_pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:24:37 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\tunggakan.php on line 74.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('tunggakan/export_pdf')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('tunggakan/export_pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/export_pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:52:24 --> Call to undefined method TCPDF::writenhtml()
+in APPPATH\Controllers\tunggakan.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:52:42 --> Undefined property: TCPDF::$response
+in APPPATH\Controllers\tunggakan.php on line 67.
+ 1 APPPATH\Controllers\tunggakan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'APPPATH\\Controllers\\tunggakan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:54:39 --> Undefined property: TCPDF::$response
+in APPPATH\Controllers\tunggakan.php on line 67.
+ 1 APPPATH\Controllers\tunggakan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'APPPATH\\Controllers\\tunggakan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:56:07 --> Undefined property: TCPDF::$response
+in APPPATH\Controllers\tunggakan.php on line 67.
+ 1 APPPATH\Controllers\tunggakan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'APPPATH\\Controllers\\tunggakan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:56:29 --> Undefined property: TCPDF::$response
+in APPPATH\Controllers\tunggakan.php on line 67.
+ 1 APPPATH\Controllers\tunggakan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'APPPATH\\Controllers\\tunggakan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:57:19 --> Undefined property: TCPDF::$response
+in APPPATH\Controllers\tunggakan.php on line 67.
+ 1 APPPATH\Controllers\tunggakan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'APPPATH\\Controllers\\tunggakan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 08:58:52 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(66): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:04:45 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:05:13 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                       
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:06:28 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:08:55 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; <table width="100%"><tr><td width="50%">Kelas : X AKL 3<marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Dicetak Tanggal :03 Mei 2023<marker style="font-size:0"/></td></tr></table><br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td colspan="5" style="font-weight: bold;">Total Tagihan<marker style="font-size:0"/></td><td colspan="3" style="font-weight: bold;">Rp 0,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(108): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_kelas.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <caption class="caption">
+            SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274
+        </caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+    </caption>
+    <table width="100%">
+        <tr>
+            <td width="50%">Kelas : X AKL 3</td>
+            <td width="200%" align="right">
+                <p>Dicetak Tanggal :03 Mei 2023            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Tahun Pelajaran</th>
+            <th>Bulan </th>
+            <th>Tagihan SPP </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                    <tr>
+                <td colspan="5" style="font-weight: bold;">Total Tagihan</td>
+                <td colspan="3" style="font-weight: bold;">Rp 0,00</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_kelas.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_kelas()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:10:12 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp; SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; <table width="100%"><tr><td width="50%">Kelas : X AKL 3<marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Dicetak Tanggal :03 Mei 2023<marker style="font-size:0"/></td></tr></table><br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td colspan="5" style="font-weight: bold;">Total Tagihan<marker style="font-size:0"/></td><td colspan="3" style="font-weight: bold;">Rp 0,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(108): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_kelas.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <caption class="caption">
+            SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274
+        </caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+    </caption>
+    <table width="100%">
+        <tr>
+            <td width="50%">Kelas : X AKL 3</td>
+            <td width="200%" align="right">
+                <p>Dicetak Tanggal :03 Mei 2023            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Tahun Pelajaran</th>
+            <th>Bulan </th>
+            <th>Tagihan SPP </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                    <tr>
+                <td colspan="5" style="font-weight: bold;">Total Tagihan</td>
+                <td colspan="3" style="font-weight: bold;">Rp 0,00</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_kelas.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_kelas()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:10:17 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table>
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:36:22 --> Undefined property: TCPDF::$h
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 2855.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(2855): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$h', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 2855)
+ 2 APPPATH\Controllers\tunggakan.php(87): TCPDF->setAutoPageBreak(true, 25)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:38:05 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(66): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:43:23 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\tunggakan.php on line 61.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('tunggakan/export_pdf')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('tunggakan/export_pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('tunggakan/export_pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:44:00 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:44:52 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:45:36 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:45:45 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table class="border-table"><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table width="100%"><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table class="border-table">
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%">
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:48:45 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table ><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table ><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table >
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table >
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:48:51 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table ><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table ><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(64): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table >
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table >
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 09:53:18 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17088.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17088): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17088)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17360): TCPDF->getHtmlDomArray('<body>&nbsp;<img src="public/img/logosmk.png;base64" alt=""><span><marker style="font-size:0"/></span>&nbsp;SMK MA\'ARIF NU BAWANG<br>&nbsp; Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif<br>&nbsp; Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274 <hr>&nbsp; Laporan Pembayaran SPP<br>&nbsp; Per periode 01 Mei 2023 s/d 31 Mei 2023<br>&nbsp; <table ><thead><th>No<marker style="font-size:0"/></th><th>NIS<marker style="font-size:0"/></th><th>Nama Siswa<marker style="font-size:0"/></th><th>Kelas<marker style="font-size:0"/></th><th>Tahun Pelajaran<marker style="font-size:0"/></th><th>Tagihan SPP<marker style="font-size:0"/></th><th>Bulan<marker style="font-size:0"/></th><th>Tanggal Bayar<marker style="font-size:0"/></th><th>Keterangan<marker style="font-size:0"/></th></thead><tr><td>1<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Mei<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td>2<marker style="font-size:0"/></td><td>1111<marker style="font-size:0"/></td><td>hasnan afif<marker style="font-size:0"/></td><td>X TKRO 1<marker style="font-size:0"/></td><td>2022/2023<marker style="font-size:0"/></td><td>Rp 125.000,00<marker style="font-size:0"/></td><td>Juni<marker style="font-size:0"/></td><td>02 Mei 2023<marker style="font-size:0"/></td><td>&nbsp; <span class= bagde text-bg-success>Lunas</span></tr><tr><td colspan="5" style="font-weight: bold;">Total Bayar<marker style="font-size:0"/></td><td colspan="4" style="font-weight:bold ;">Rp 250.000,00<marker style="font-size:0"/></td></tr></table><table ><tr><td><marker style="font-size:0"/></td><td width="200%" align="right">&nbsp; <p>Bawang,03 Mei 2023<br>&nbsp; Staf bendahara</p><br /><br /> <p>wahyu</p><marker style="font-size:0"/></td></tr></table></body>')
+ 3 APPPATH\Controllers\tunggakan.php(107): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\content\\export_laporan.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pembayaran SPP</title>
+
+    <style>
+        .border-table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12;
+            width: 100%;
+        }
+
+        .border-table th {
+            border: 1 solid #000;
+            font-weight: bold;
+            background-color: #e1e1e1;
+
+        }
+
+        .border-table td {
+            border: 1 solid #000;
+        }
+
+        .caption {
+            font-weight: bold;
+            font-size: 15;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="public/img/logosmk.png;base64" alt="">
+    <center>
+        <caption class="caption"> SMK MA\'ARIF NU BAWANG <br>
+            Akutansi Keuangan Lembaga - Teknik Kendaraan Ringan Otomotif <br>
+            Jl.Sunan Bonang No.57 Desa Bawang Kecamatan Bawang Kabupaten Batang KP:51274</caption>
+    </center>
+    <hr>
+    <caption class="caption">
+        Laporan Pembayaran SPP <br>
+        Per periode 01 Mei 2023 s/d 31 Mei 2023    </caption>
+    <br>
+    <table >
+        <thead>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Tahun Pelajaran</th>
+            <th>Tagihan SPP </th>
+            <th>Bulan </th>
+            <th>Tanggal Bayar </th>
+            <th>Keterangan </th>
+        </thead>
+        <tbody>
+                                        <tr>
+                    <td>1</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Mei</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>1111</td>
+                    <td>hasnan afif</td>
+                    <td>X TKRO 1</td>
+                    <td>2022/2023</td>
+                    <td>Rp 125.000,00</td>
+                    <td>Juni</td>
+                    <td>02 Mei 2023</td>
+                    <td>
+                        <span class= bagde text-bg-success>Lunas</span>                 </tr>
+                        <tr>
+                <td colspan="5" style="font-weight: bold;">Total Bayar</td>
+                <td colspan="4" style="font-weight:bold ;">Rp 250.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table >
+        <tr>
+            <td></td>
+            <td width="200%" align="right">
+                <p>Bawang,03 Mei 2023<br>
+                    Staf bendahara</p> <br /><br />
+
+                <p>wahyu</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\content\\export_laporan.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:13:42 --> Undefined variable $pic
+in APPPATH\Views\content\export_laporan.php on line 40.
+ 1 APPPATH\Views\content\export_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pic', 'APPPATH\\Views\\content\\export_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\export_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_laporan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(60): view('content/export_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:14:34 --> Undefined variable $pic
+in APPPATH\Views\content\export_laporan.php on line 40.
+ 1 APPPATH\Views\content\export_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pic', 'APPPATH\\Views\\content\\export_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\export_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/export_laporan', [], true)
+ 5 APPPATH\Controllers\tunggakan.php(60): view('content/export_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:17:55 --> Class "dompdf\options" not found
+in APPPATH\Controllers\tunggakan.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:27:14 --> No block-level parent found.  Not good.
+in VENDORPATH\dompdf\dompdf\src\Positioner\Inline.php on line 32.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(892): Dompdf\Positioner\Inline->position(Object(Dompdf\FrameDecorator\Image))
+ 2 VENDORPATH\dompdf\dompdf\src\FrameReflower\Image.php(52): Dompdf\FrameDecorator\AbstractFrameDecorator->position()
+ 3 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Image->reflow(null)
+ 4 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 5 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 6 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 APPPATH\Controllers\tunggakan.php(85): Dompdf\Dompdf->render()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:27:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-03 10:27:55 --> No block-level parent found.  Not good.
+in VENDORPATH\dompdf\dompdf\src\Positioner\Inline.php on line 32.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(892): Dompdf\Positioner\Inline->position(Object(Dompdf\FrameDecorator\Image))
+ 2 VENDORPATH\dompdf\dompdf\src\FrameReflower\Image.php(52): Dompdf\FrameDecorator\AbstractFrameDecorator->position()
+ 3 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Image->reflow(null)
+ 4 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 5 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 6 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 APPPATH\Controllers\tunggakan.php(85): Dompdf\Dompdf->render()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:28:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260050944 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-03 10:39:57 --> getimagesize(): Error reading from C:\Users\Hp\AppData\Local\Temp\ca_8B08.tmp!
+in VENDORPATH\dompdf\dompdf\src\Helpers.php on line 670.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesize(): Error reading from C:\\Users\\Hp\\AppData\\Local\\Temp\\ca_8B08.tmp!', 'VENDORPATH\\dompdf\\dompdf\\src\\Helpers.php', 670)
+ 2 VENDORPATH\dompdf\dompdf\src\Helpers.php(670): getimagesize('C:\\Users\\Hp\\AppData\\Local\\Temp\\ca_8B08.tmp')
+ 3 VENDORPATH\dompdf\dompdf\src\Image\Cache.php(124): Dompdf\Helpers::dompdf_getimagesize('C:\\Users\\Hp\\AppData\\Local\\Temp\\ca_8B08.tmp', resource (stream-context))
+ 4 VENDORPATH\dompdf\dompdf\src\FrameDecorator\Image.php(58): Dompdf\Image\Cache::resolve_url('data:image;base64,logosmk.png', 'data://', 'ROOTPATH\\public', 'ROOTPATH\\public', Object(Dompdf\Options))
+ 5 VENDORPATH\dompdf\dompdf\src\Frame\Factory.php(198): Dompdf\FrameDecorator\Image->__construct(Object(Dompdf\Frame), Object(Dompdf\Dompdf))
+ 6 VENDORPATH\dompdf\dompdf\src\Dompdf.php(731): Dompdf\Frame\Factory::decorate_frame(Object(Dompdf\Frame), Object(Dompdf\Dompdf), Object(Dompdf\FrameDecorator\Page))
+ 7 APPPATH\Controllers\tunggakan.php(84): Dompdf\Dompdf->render()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\tunggakan->export_pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tunggakan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-03 10:40:50 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

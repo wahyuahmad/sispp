@@ -1,0 +1,146 @@
+CRITICAL - 2023-02-18 03:17:02 --> syntax error, unexpected token "{", expecting "("
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 03:17:36 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 03:18:00 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 20:21:27 --> Invalid file: content/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/index', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('content/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 21:18:43 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('home')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('home')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('home')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 21:53:26 --> Undefined property: App\Controllers\Home::$Home_Model
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Home_Model', 'APPPATH\\Controllers\\Home.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 21:53:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home_Model.php(12): CodeIgniter\Model->__call('db', [])
+ 4 APPPATH\Controllers\Home.php(16): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 21:55:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home_Model.php(13): CodeIgniter\Model->__call('db', [])
+ 4 APPPATH\Controllers\Home.php(16): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 21:57:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home_Model.php(12): CodeIgniter\Model->__call('db', [])
+ 4 APPPATH\Controllers\Home.php(16): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 21:58:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home_Model.php(12): CodeIgniter\Model->__call('db', [...])
+ 4 APPPATH\Controllers\Home.php(16): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 22:00:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home_Model.php(12): CodeIgniter\Model->__call('db', [...])
+ 4 APPPATH\Controllers\Home.php(17): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 22:02:14 --> Undefined variable $tot_kelas
+in APPPATH\Views\content\home.php on line 57.
+ 1 APPPATH\Views\content\home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tot_kelas', 'APPPATH\\Views\\content\\home.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 22:06:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home_Model.php(13): CodeIgniter\Model->__call('db', [...])
+ 4 APPPATH\Controllers\Home.php(17): App\Models\Home_Model->tot_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-18 23:35:09 --> Undefined variable $validation
+in APPPATH\Views\form\input_siswa.php on line 28.
+ 1 APPPATH\Views\form\input_siswa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\form\\input_siswa.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\input_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form/input_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(30): view('form/input_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->input_siswa()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

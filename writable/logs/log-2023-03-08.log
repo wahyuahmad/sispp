@@ -1,0 +1,75 @@
+CRITICAL - 2023-03-08 03:21:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_kelas.php on line 18.
+ 1 APPPATH\Views\form\edit_kelas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_kelas.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_kelas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_kelas', [], true)
+ 5 APPPATH\Controllers\kelas.php(70): view('/form/edit_kelas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 03:21:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_kelas.php on line 18.
+ 1 APPPATH\Views\form\edit_kelas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_kelas.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_kelas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_kelas', [], true)
+ 5 APPPATH\Controllers\kelas.php(70): view('/form/edit_kelas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\kelas->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kelas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 03:24:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(75): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 03:24:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\form\edit_siswa.php on line 23.
+ 1 APPPATH\Views\form\edit_siswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\form\\edit_siswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form\\edit_siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/form/edit_siswa', [], true)
+ 5 APPPATH\Controllers\siswa.php(75): view('/form/edit_siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\siswa->edit('FCPATH\\asset', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-08 03:50:30 --> Unknown column 'nominal' in 'field list'
+CRITICAL - 2023-03-08 03:50:30 --> Unknown column 'nominal' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`nominal`) AS `nominal`
+FROM `tunggakan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`nominal`) AS `nominal`
+FROM `tunggakan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`nominal`) AS `nominal`
+FROM `tunggakan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`nominal`) AS `nominal`
+FROM `tunggakan`', [], false)
+ 5 APPPATH\Models\Home_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(21): App\Models\Home_Model->tot_pendapatan()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 03:52:59 --> Undefined property: stdClass::$nominal
+in APPPATH\Models\Home_Model.php on line 26.
+ 1 APPPATH\Models\Home_Model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nominal', 'APPPATH\\Models\\Home_Model.php', 26)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\Home_Model->tot_pendapatan()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
